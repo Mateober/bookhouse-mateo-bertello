@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container h1 {
   display: flex;
-  flex-direction: column;
   align-items: center;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  background-color: #229acd;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: fixed;
+  z-index: 10;
+}
+.headerSections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerSections a {
+      margin-right: 50px;
+      color: white;
+      font-weight: 700;
+      font-size: 25px;  
+}
+
+.headerSections a:hover {
+          transform: scale(1.1, 1.1);
+          color: #5a5a5a;
+          transition: 0.3s;  
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 80%;
+}
+
+.logo {
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+}
+
+/* MENU HAMBURGUESA */
+
+.container .burger-btn {
+  display: none;
+  font-size: 40px;
+  cursor: pointer;
+  color: white;
+}
+.container .cross-btn {
+  display: none;
+  font-size: 40px;
+  cursor: pointer;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.burger-menu {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 2em;
+  line-height: 56px;
+  background-color: white;
+  padding: 10px 0;
+  top: -100%;
+  z-index: 8;
+  position: fixed;
+  width: 100%;
+  transition: 0.7s ease-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.burger-menu p {
+  font-family: 25px;
+}
+
+.burger-menu a {
+  text-decoration: none;
+  color: Black;
+}
+
+.burger-menu a:hover {
+  font-size: 35px;
+  color: #5a5a5a;
+}
+
+@media (max-width: 1080px) {
+  .nav {
+      padding: 15px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 1000px) {
+  .nav {
+      padding: 11px;
+  }
+  .headerSections a {
+      display: none;
+  }
+  .container .burger-btn {
+      display: block;
+  }
+  .burger-menu.active {
+      top: 0;
+      transition: 0.4s ease-out;
+  }
+  .container .burger-btn.hide {
+      display: none;
+  }
+  #cross-icon.active {
+      display: block;
+  }
+  .logo {
+      font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .nav {
+      width: 100%;
   }
 }
