@@ -1,0 +1,208 @@
+/* ----------NAVBAR---------- */
+.navbar {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+/* ----------NAV 1---------- */
+.nav__1 {
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+        align-items: center;
+        display: flex;
+        img {
+            width: 60px;
+        }
+    }
+    .nombre {
+        color: #1f2b43;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .btn-ingresar {
+        background-color: #1f2b43;
+        color: white;
+        border: none;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        &:hover {
+            color: #bdb6b6;
+            transition: 0.2s;
+        }
+    }
+}
+/* ----------NAV 2---------- */
+.nav__2 {
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    form {
+        width: 700px;
+        input {
+            width: 100%;
+            height: 35px;
+            text-align: center;
+            border: none;
+            background-color: #f6f6f6;
+            font-weight: 400;
+            font-size: 22px;
+            outline: none;
+        }
+    }
+    .btn-buscar {
+        border: none;
+        background-color: #f6f6f6;
+        font-size: 20px;
+        padding-right: 10px;
+        cursor: pointer;
+    }
+}
+/* ----------NAV 3---------- */
+.nav__3 {
+    padding: 10px;
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .menu__item {
+            font-weight: 600;
+            font-size: 14px;
+            padding: 0 10px;
+            color: #1f2b43;
+            &:hover {
+                color: #e95246;
+                transition: 0.2s;
+            }
+            .cart-icon {
+                font-size: 22px;
+                color: #1f2b43;
+                cursor: pointer;
+                &:hover {
+                    color: #e95246;
+                    transition: 0.2s;
+                }
+                #counter {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
+/* ----------NAVBAR MOBILE---------- */
+.navbar-mobile {
+    display: none;
+}
+/* ----------MEDIA QUERYS---------- */
+@media (max-width: 800px) {
+    .navbar {
+        width: 100%;
+    }
+}
+@media (max-width: 640px) {
+    .navbar {
+        display: none;
+    }
+    /* ----------NAVBAR MOBILE---------- */
+    .navbar-mobile {
+        padding: 0 20px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nombre {
+            font-size: 30px;
+            padding: 10px 0;
+        }
+        .menu__mobile {
+            width: 100%;
+            height: 300px;
+            background-color: #1f2b43;
+            left: 0;
+            top: 57px;
+            transition: 0.5s ease-out;
+            position: absolute;
+            &.active {
+                left: 0;
+            }
+            .menu__item {
+                color: white;
+                padding: 10px;
+            }
+        }
+    }
+    /* ----------MENU MOBILE---------- */
+    .search__mobile {
+        padding: 10px 0;
+        padding-top: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        form {
+            width: 80%;
+            input {
+                width: 100%;
+                height: 30px;
+                text-align: center;
+                border: none;
+                background-color: #f6f6f6;
+                outline: none;
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+        .btn-buscar {
+            font-size: 24.6px;
+            padding: 0;
+            padding-right: 10px;
+            color: #1f2b43;
+            background-color: #f6f6f6;
+            border: none;
+        }
+    }
+    .btn-ingresar {
+        background-color: white;
+        color: #1f2b43;
+        padding: 10px 10px;
+        margin-left: 10px;
+        border: none;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    /* ----------ICONS---------- */
+    #burger-icon {
+        font-size: 27px;
+        color: #1f2b43;
+        cursor: pointer;
+    }
+    #cross-icon {
+        font-size: 30px;
+        color: #1f2b43;
+        cursor: pointer;
+        display: none;
+    }
+    #cart-icon {
+        font-size: 23px;
+        color: #1f2b43;
+        cursor: pointer;
+        #counter {
+            font-size: 15px;
+        }
+    }
+    .active {
+        display: block !important;
+    }
+    .hide {
+        display: none !important;
+    }
+}

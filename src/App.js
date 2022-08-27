@@ -1,6 +1,6 @@
-import "./App.css";
-import NavBar from "./components/NavBar";
-import ItemListContainer from "./components/ItemListContainer";
+import "./App.scss";
+import NavBar from "./components/Header/NavBar";
+import ItemListContainer from "./components/Main/ItemListContainer";
 
 function App() {
   return (
@@ -8,9 +8,7 @@ function App() {
     <NavBar/>
     <ItemListContainer greeting="Hola Mundo!!!"/>
   </>
-
   )
-  
 }
 
 export default App;
