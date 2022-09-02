@@ -20,7 +20,6 @@ function ItemCount({stock, initial}) {
     }
     return (
         <>
-        <p>hola</p>
             <button onClick={restarClick}><i className="fa-solid fa-minus"></i></button>
             <p>{counter}</p>
             <button onClick={sumarClick}><i className="fa-solid fa-plus"></i></button>
