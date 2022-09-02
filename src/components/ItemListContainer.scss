@@ -1,0 +1,98 @@
+main {
+    background-color: #f1f1f1;
+}
+.productCatalog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product__container {
+    background-color: white;
+    width: 250px;
+    height: 530px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid #ebebeb;
+    border-bottom: 5px #1F2B43 solid;
+    img {
+        width: 180px;
+        margin: auto auto;
+        box-shadow: 7px 5px 5px 1px #999090;
+    }
+    
+    .product__container--title {
+        padding: 0 20px;
+        padding-bottom: 20px;
+        color: #1F2B43;
+        .title__book {
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .autor__book {
+            font-size: 14px;
+            font-weight: 600;
+            color: #E95246;
+        }
+        .price__book {
+            padding-top: 10px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+    .product__container--options {
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid #d7d7d7;
+        button {
+            background-color: white;
+            color: #1F2B43;
+            width: 130px;
+            cursor: pointer;
+            padding: 20px 0;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+}
+
+.btn-details {
+border-right: #d7d7d7 1px solid;
+}
+
+/* .btn-buy {
+    border-left: #d7d7d7 1px solid;
+} */
+
+.product__container--quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 20px 20px 20px;
+    align-items: center;
+    p {
+        border: none;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1F2B43;
+        width: 50px;
+    }
+    i {
+        font-size: 16px;
+        font-weight: 600;
+        color: #1F2B43;
+        cursor: pointer;
+    }
+}
+
+/* input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] { -moz-appearance:textfield; } */

@@ -1,12 +1,12 @@
 import "./App.scss";
-import NavBar from "./components/Header/NavBar";
-import ItemListContainer from "./components/Main/ItemListContainer";
+import NavBar from "./components/NavBar";
+import ItemListContainer from "./components/ItemListContainer";
 
 function App() {
   return (
   <>    
     <NavBar/>
-    <ItemListContainer greeting="Hola Mundo!!!"/>
+    <ItemListContainer/>
   </>
   )
 }
