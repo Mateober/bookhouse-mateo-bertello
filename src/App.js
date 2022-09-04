@@ -1,12 +1,14 @@
 import "./App.scss";
-import NavBar from "./components/NavBar";
-import ItemListContainer from "./components/ItemListContainer";
+import NavBar from "./components/NavBar/NavBar";
+import ItemListContainer from "./components/Products/ItemListContainer";
 
 function App() {
   return (
   <>    
     <NavBar/>
-    <ItemListContainer/>
+    <div className="productCatalog" id="productCatalog">
+      <ItemListContainer/>
+    </div>
   </>
   )
 }
