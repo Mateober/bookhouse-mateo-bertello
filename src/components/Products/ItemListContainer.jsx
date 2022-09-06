@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import ItemList from './ItemList';
 import customFetch from '../../utils/customFetch';
 import dataFromBD from '../../utils/data';
@@ -12,18 +12,11 @@ const ItemListContainer = () => {
     }, []);
 
     return (
-        <>
-            {data.map((item) => (
-                <ItemList 
-                key={item.id}  
-                title={item.title}
-                author={item.author}
-                price={item.price}
-                img={item.img}
-                /* stock={item.stock} */
-                />
-            ))}
-        </>
+        <div className="productCatalog" id="productCatalog">
+            <div className="gridCatalog">
+                <ItemList data={data} />
+            </div>
+        </div>
     );
 };
 
