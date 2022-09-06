@@ -100,3 +100,21 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0; 
 }
 input[type=number] { -moz-appearance:textfield; } */
+
+@media (max-width: 1266px) {
+    .gridCatalog {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 896px) {
+    .gridCatalog {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 667px) {
+    .gridCatalog {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

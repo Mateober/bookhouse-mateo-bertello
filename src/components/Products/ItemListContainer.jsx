@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ItemList from './ItemList';
 import customFetch from '../../utils/customFetch';
 import dataFromBD from '../../utils/data';
+import Loading from './Loading';
 
 const ItemListContainer = () => {
     const [data, setData] = useState([]);
@@ -12,11 +13,15 @@ const ItemListContainer = () => {
     }, []);
 
     return (
-        <div className="productCatalog" id="productCatalog">
-            <div className="gridCatalog">
-                <ItemList data={data} />
-            </div>
-        </div>
+        <>
+            {data.length ?
+                <div className="productCatalog" id="productCatalog">
+                    <div className="gridCatalog">
+                        <ItemList data={data} />
+                    </div>
+                </div>
+                : <Loading />}
+        </>
     );
 };
 
