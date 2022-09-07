@@ -1,16 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import ItemList from './ItemList';
-import customFetch from '../../utils/customFetch';
 import dataFromBD from '../../utils/data';
 import Loading from './Loading';
 
 const ItemListContainer = () => {
     const [data, setData] = useState([]);
+
     useEffect(() => {
-        customFetch(2000, dataFromBD)
-            .then((datos) => setData(dataFromBD))
-            .catch((err) => console.log(err));
-    }, []);
+        const getData = new Promise(resolve => {
+            setTimeout(() => {
+                resolve(dataFromBD);
+            }, 2000);
+        });
+
+        getData.then(res => setData(res));
+    })
 
     return (
         <>

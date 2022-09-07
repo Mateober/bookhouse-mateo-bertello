@@ -1,0 +1,215 @@
+.description {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    color: #1f2b43;
+    padding: 40px 0;
+    &__img {
+        width: 50%;
+        text-align: center;
+        margin: auto 0;
+        img {
+            width: 300px;
+            box-shadow: 7px 5px 5px 1px #999090;
+        }
+    }
+    &__details {
+        width: 50%;
+        /* margin: auto 0; */
+    }
+}
+
+.description__details {
+    .details__authorfav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 500px;
+        .details__author {
+            font-size: 14px;
+            font-weight: 800;
+            color: #e95246;
+        }
+        i {
+            font-size: 20px;
+            cursor: pointer;
+            &:hover {
+                color: red;
+            }
+        }
+    }
+
+    .details__title {
+        font-size: 20px;
+        font-weight: 600;
+        max-width: 500px;
+    }
+    .details__idshare {
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        font-weight: 600;
+        padding-top: 10px;
+        max-width: 500px;
+        justify-content: space-between;
+        &--share {
+            cursor: pointer;
+            i {
+                padding-left: 5px;
+            }
+        }
+    }
+    .details__precio {
+        padding-top: 40px;
+        font-size: 12px;
+        font-weight: 800;
+        color: #e95246;
+    }
+    .details__price {
+        font-size: 30px;
+        font-weight: 600;
+        padding-bottom: 40px;
+    }
+    .details__stock {
+        font-size: 13px;
+        font-weight: 600;
+        color: #77a464;
+    }
+    #button__buy {
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #e95246;
+        color: white;
+        padding: 10px 100px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+}
+
+.mediodepago {
+    img {
+        width: 40px;
+    }
+    &__title {
+        font-size: 16px;
+        font-weight: 600;
+        color: #1f2b43;
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    &__subtitle {
+        font-size: 14px;
+        font-weight: 600;
+        color: #e95246;
+        padding-top: 10px;
+        padding-bottom: 2px;
+    }
+}
+
+.information__product {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    color: #1f2b43;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    .fichatecnica {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sinopsis {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+}
+
+.fichatecnica {
+    #fichatecnica__title {
+        font-size: 30px;
+        border-bottom: #e95246 4px solid;
+        margin-bottom: 20px;
+    }
+    p {
+        color: #1f2b43;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 2px;
+    }
+}
+
+.sinopsis {
+    #sinopsis__title {
+        font-size: 30px;
+        border-bottom: #e95246 4px solid;
+        margin-bottom: 20px;
+        width: 130px;
+    }
+    p {
+        color: #1f2b43;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 2px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .description {
+        width: 100%;
+        justify-content: space-around;
+        &__img {
+            width: 45%;
+        }
+        &__details {
+            width: 50%;
+        }
+    }
+    .information__product {
+        flex-direction: column;
+        padding-top: 0;
+
+        .fichatecnica {
+            width: 100%;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .sinopsis {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .description {
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 10px;
+        &__img {
+            width: 100%;
+            img {
+                width: 200px;
+            }
+        }
+        &__details {
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+    }
+    .description__details {
+        .details__authorfav {
+            max-width: 700px;
+        }
+    
+        .details__title {
+            max-width: 700px;
+        }
+        .details__idshare {
+            max-width: 700px;
+        }
+}}

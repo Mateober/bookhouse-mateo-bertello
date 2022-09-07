@@ -1,0 +1,65 @@
+import React from 'react';
+import ItemCount from './ItemCount';
+
+function ItemDetail({item}) {
+    return (
+        <>
+        <div className="description">
+                <div className="description__img">
+                    <img src={item.img} alt="" />
+                </div>
+                <div className="description__details">
+                    <div className="details__authorfav">
+                        <p className="details__author">{item.author}</p>
+                        <i className="fa-regular fa-heart"></i>
+                    </div>
+                        <p className="details__title">{item.title}</p>
+                    <div className="details__idshare">
+                        <p className="details__idshare--id">ID: {item.id}</p>
+                        <p className="details__idshare--share">
+                            Compartir<i className="fa-solid fa-share-nodes"></i>
+                        </p>
+                    </div>
+                    <p className="details__precio">PRECIO</p>
+                    <p className="details__price">${item.price}</p>
+                    <ItemCount initial={1} stockItem={item.stock}/>
+                    <div className="mediodepago">
+                        <p className="mediodepago__title">Medios de pago</p>
+                        <p className="mediodepago__subtitle">Credito</p>
+                        <img src="https://i.postimg.cc/bNnCSsgD/credito1americanexpress.png" alt=""/>
+                        <img src="https://i.postimg.cc/MZN3Gy7J/credito2visa.png" alt=""/>
+                        <img src="https://i.postimg.cc/wx7bHWsk/credito3mastercard.png" alt=""/>
+                        <img src="https://i.postimg.cc/sgRnYsHn/credito4cabal.png" alt=""/>
+                        <img src="https://i.postimg.cc/JtCGyDh5/credito5naranja.png" alt=""/>
+                        <p className="mediodepago__subtitle">Debito</p>
+                        <img src="https://i.postimg.cc/k4ZVmh3Z/debito1cabal.png" alt=""/>
+                        <img src="https://i.postimg.cc/5yCXNqft/debito2mastecard.png" alt=""/>
+                        <img src="https://i.postimg.cc/XJXZt6hd/debito3visa.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div className="information__product">
+                <div className="fichatecnica">
+                    <p id="fichatecnica__title">Ficha Tecnica</p>
+                    <div>
+                        <p>Editorial: Salamandra</p>
+                        <p>Paginas: 200</p>
+                        <p>Peso: 0.3 kg.</p>
+                        <p>ISBN: 9788484456810</p>
+                        <p>Idioma: Español</p>
+                    </div>
+
+                </div>
+                <div className="sinopsis">
+                    <p id="sinopsis__title">Sinopsis</p>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad necessitatibus reprehenderit tempora quam facere eligendi, sunt molestias, eaque labore illum assumenda expedita, excepturi aliquam possimus iste eius voluptates optio quidem.
+                        Sapiente dolorum voluptate praesentium iure placeat mollitia aspernatur quasi nemo, illum ea cumque! Blanditiis itaque pariatur repudiandae impedit fugiat, esse veritatis laborum aut mollitia ratione autem? Veniam ab cumque excepturi.</p>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default ItemDetail
