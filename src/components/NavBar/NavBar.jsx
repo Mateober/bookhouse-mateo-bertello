@@ -1,14 +1,19 @@
 import React from 'react';
 import CartWidget from './CartWidget';
 import Logo from '../../assets/logo-iso.png';
-
+import {Link} from "react-router-dom"
+import scrollTopOnClick from '../../utils/scrollTopOnClick';
+ 
 function NavBar() {
     return (
+        <>        
         <header>
             <nav className="navbar">
                 <div className="nav__1">
-                    <a className="logo" href="./index.html"><img src={Logo} alt="Logo" /></a>
-                    <a className="nombre" href="./index.html">BOOKHOUSE</a>
+                    <Link onClick={scrollTopOnClick} to="/"><p className="logo"><img src={Logo} alt="Logo" /></p></Link>
+                    <Link onClick={scrollTopOnClick} to="/"><p className="nombre">BOOKHOUSE</p></Link>
+{/*                 <a className="logo" href="./index.html"><img src={Logo} alt="Logo" /></a>
+                    <a className="nombre" href="./index.html">BOOKHOUSE</a> */}
                     <button className="btn-ingresar">INGRESAR</button>
                 </div>
                 <div className="nav__2">
@@ -19,11 +24,20 @@ function NavBar() {
                 </div>
                 <div className="nav__3">
                     <ul className="menu">
-                        <li className="menu__item"><a href="./index.html">Inicio</a></li>
-                        <li className="menu__item"><a href="./index.html">Tematica</a></li>
-                        <li className="menu__item"><a href="./index.html">Sucursales</a></li>
-                        <li className="menu__item"><a href="./index.html">Nosotros</a></li>
-                        <li className="menu__item"><a href="./index.html">Contacto</a></li>
+                        <li className="menu__item"><Link onClick={scrollTopOnClick} to="/">Inicio</Link></li>
+                        <li className="menu__item dropdown">Generos
+                            <div className="dropdown-content">
+                                <Link onClick={scrollTopOnClick} to="/category/2">Ciencia Ficcion</Link>
+                                <Link onClick={scrollTopOnClick} to="/category/1">Novela</Link>
+                                <Link onClick={scrollTopOnClick} to="/category/3">Novela Romantica</Link>
+                                <Link onClick={scrollTopOnClick} to="/category/5">Novela Fantastica</Link>
+                                <Link onClick={scrollTopOnClick} to="/category/4">Novela De Terror</Link>
+                            </div>
+                        </li>
+
+                        <li className="menu__item"><Link onClick={scrollTopOnClick} to="/">Sucursales</Link></li>
+                        <li className="menu__item"><Link onClick={scrollTopOnClick} to="/">Nosotros</Link></li>
+                        <li className="menu__item"><Link onClick={scrollTopOnClick} to="/">Contacto</Link></li>
                         <li className="menu__item"><CartWidget/></li>
                     </ul>
                 </div>
@@ -31,26 +45,28 @@ function NavBar() {
             <div className="navbar-mobile">
                 <i className="fa-solid fa-bars burger-icon" id="burger-icon"></i>
                 <i className="fa-solid fa-xmark cross-icon" id="cross-icon"></i>
-                <a className="nombre" href="./index.html">BOOKHOUSE</a>
+                <Link to="/"><p className="nombre">BOOKHOUSE</p></Link>
+                {/* <a className="nombre" href="./index.html">BOOKHOUSE</a> */}
                 <CartWidget/>
-                <div className="menu__mobile" id="burger-menu">
-                    <ul>
-                        <div className="search__mobile">
-                            <form action="">
-                                <input type="text" placeholder="Hola. ¿Qué libro estás buscando hoy?" />
-                            </form>
-                            <button type="submit" className="btn-buscar"><i className="fa-solid fa-magnifying-glass"></i></button>
-                        </div>
-                        <li className="menu__item"><a href="./index.html">Inicio</a></li>
-                        <li className="menu__item"><a href="./index.html">Tematica</a></li>
-                        <li className="menu__item"><a href="./index.html">Sucursales</a></li>
-                        <li className="menu__item"><a href="./index.html">Nosotros</a></li>
-                        <li className="menu__item"><a href="./index.html">Contacto</a></li>
-                        <button className="btn-ingresar">INGRESAR</button>
-                    </ul>
-                </div>
             </div>
         </header>
+                       <div className="menu__mobile" id="burger-menu">
+                       <ul>
+                           <div className="search__mobile">
+                               <form action="">
+                                   <input type="text" placeholder="Hola. ¿Qué libro estás buscando hoy?" />
+                               </form>
+                               <button type="submit" className="btn-buscar"><i className="fa-solid fa-magnifying-glass"></i></button>
+                           </div>
+                           <li className="menu__item"><a href="#/">Inicio</a></li>
+                           <li className="menu__item"><a href="#/">Tematica</a></li>
+                           <li className="menu__item"><a href="#/">Sucursales</a></li>
+                           <li className="menu__item"><a href="#/">Nosotros</a></li>
+                           <li className="menu__item"><a href="#/">Contacto</a></li>
+                           <button className="btn-ingresar">INGRESAR</button>
+                       </ul>
+                   </div>
+        </>
     );
 }
 

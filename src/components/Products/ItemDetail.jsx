@@ -42,19 +42,18 @@ function ItemDetail({item}) {
                 <div className="fichatecnica">
                     <p id="fichatecnica__title">Ficha Tecnica</p>
                     <div>
-                        <p>Editorial: Salamandra</p>
-                        <p>Paginas: 200</p>
-                        <p>Peso: 0.3 kg.</p>
-                        <p>ISBN: 9788484456810</p>
-                        <p>Idioma: Español</p>
+                        <p>Editorial: {item.details.editorial}</p>
+                        <p>Paginas: {item.details.páginas}</p>
+                        <p>Peso: {item.details.peso} kg.</p>
+                        <p>ISBN: {item.details.ISBN}</p>
+                        <p>Idioma: {item.details.idioma}</p>
                     </div>
 
                 </div>
                 <div className="sinopsis">
                     <p id="sinopsis__title">Sinopsis</p>
                     <div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad necessitatibus reprehenderit tempora quam facere eligendi, sunt molestias, eaque labore illum assumenda expedita, excepturi aliquam possimus iste eius voluptates optio quidem.
-                        Sapiente dolorum voluptate praesentium iure placeat mollitia aspernatur quasi nemo, illum ea cumque! Blanditiis itaque pariatur repudiandae impedit fugiat, esse veritatis laborum aut mollitia ratione autem? Veniam ab cumque excepturi.</p>
+                        <p>{item.details.sinopsis}</p>
                     </div>
                 </div>
             </div>

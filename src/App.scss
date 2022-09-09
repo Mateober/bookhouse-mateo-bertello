@@ -6,7 +6,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-
 a {
   text-decoration: none;
   color: inherit;
@@ -23,5 +22,16 @@ button {
 
 .productCatalog {
   background-color: #f1f1f1;
+}
+
+body::-webkit-scrollbar{
+  width: 10px;
+  background-color: #f1f1f1;
+}
+body::-webkit-scrollbar-thumb{
+  background: #1f2b43;
+  border-radius: 10px;
+  border-right: 2px solid #f1f1f1;
+  height: 100px;
 }
     

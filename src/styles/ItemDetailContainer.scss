@@ -30,6 +30,7 @@
             font-size: 14px;
             font-weight: 800;
             color: #e95246;
+            text-transform: uppercase;
         }
         i {
             font-size: 20px;
@@ -44,6 +45,7 @@
         font-size: 20px;
         font-weight: 600;
         max-width: 500px;
+        text-transform: uppercase;
     }
     .details__idshare {
         display: flex;
@@ -193,6 +195,7 @@
             width: 100%;
             img {
                 width: 200px;
+                margin-bottom: 20px;
             }
         }
         &__details {
@@ -205,11 +208,18 @@
         .details__authorfav {
             max-width: 700px;
         }
-    
+
         .details__title {
             max-width: 700px;
         }
         .details__idshare {
             max-width: 700px;
         }
-}}
+    }
+}
+
+@media (max-width: 640px) {
+    .description {
+        padding-top: 80px;
+    }
+}

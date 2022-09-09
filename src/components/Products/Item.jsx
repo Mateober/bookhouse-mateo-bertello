@@ -1,7 +1,8 @@
 import React from 'react';
-/* import ItemCount from "./ItemCount" */
+import { Link } from 'react-router-dom';
+import scrollTopOnClick from '../../utils/scrollTopOnClick';
 
-const Item = ({ title, author, price, img, /* stock */ }) => {
+const Item = ({ title, author, price, img, id }) => {
     return (
         <div className="product__container">
             <img src={img} alt="Libro" />
@@ -10,13 +11,12 @@ const Item = ({ title, author, price, img, /* stock */ }) => {
                 <p className="autor__book">{author}</p>
                 <p className="price__book">${price}</p>
             </div>
-{/*         <div className="product__container--quantity">
-            <ItemCount stockItems={stock} initial={1}/>
-        </div> */}
             <div className="product__container--options">
-                <button className="btn-details">
-                    <i className="fa-solid fa-eye"></i>Detalles
-                </button>
+                <Link onClick={scrollTopOnClick} to={`/item/${id}`}>
+                    <button className="btn-details">
+                        <i className="fa-solid fa-eye"></i>Detalles
+                    </button>
+                </Link>
                 <button className="btn-buy">
                     <i className="fa-solid fa-cart-shopping"></i>Comprar
                 </button>

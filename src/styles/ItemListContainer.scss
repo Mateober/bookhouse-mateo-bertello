@@ -34,6 +34,7 @@ main {
         padding: 0 20px;
         padding-bottom: 20px;
         color: #1f2b43;
+        text-transform: uppercase;
         .title__book {
             margin-bottom: 10px;
             font-size: 16px;
@@ -57,7 +58,7 @@ main {
         button {
             background-color: white;
             color: #1f2b43;
-            width: 130px;
+            width: 120px;
             cursor: pointer;
             padding: 20px 0;
             font-size: 14px;
@@ -106,5 +107,15 @@ main {
                 font-size: 14px;
             }
         }
+        .product__container--options {
+            button {
+                width: 92px;
+            }
+        }
+    }
+}
+@media (max-width: 640px) {
+    .productCatalog {
+        padding-top: 70px;
     }
 }

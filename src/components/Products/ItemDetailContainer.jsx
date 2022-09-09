@@ -2,23 +2,30 @@ import React, { useState, useEffect } from 'react';
 import ItemDetail from './ItemDetail';
 import dataFromBD from '../../utils/data';
 import Loading from './Loading';
+import { useParams } from 'react-router-dom';
 
 const ItemDetailContainer = () => {
     const [data, setData] = useState({});
+    const { idItem } = useParams();
+    const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        const getData = new Promise(resolve => {
+        const getData = new Promise((resolve) => {
             setTimeout(() => {
                 resolve(dataFromBD);
             }, 2000);
         });
-
-        getData.then(res => setData(res));
-    })
-
-    return <>
-    {data.length ? <ItemDetail item={data[3]} /> : <Loading />}
-    </>;
+        getData.then(res => setData(res.find(item => item.id === parseInt(idItem))));
+        
+        const getIsLoading = new Promise((resolve) => {
+            setTimeout(() => {
+                resolve(false);
+            }, 2000);
+        });
+        getIsLoading.then(res => setIsLoading(res));
+        
+    }, [idItem]);
+    return <>{ isLoading === false ? <ItemDetail item={data} /> : <Loading />}</>;
 };
 
 export default ItemDetailContainer;

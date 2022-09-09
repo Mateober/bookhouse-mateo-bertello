@@ -1,16 +1,7 @@
-import "./App.scss";
-import NavBar from "./components/NavBar/NavBar";
-import ItemListContainer from "./components/Products/ItemListContainer";
-import ItemDetailContainer from "./components/Products/ItemDetailContainer";
+import Home from './pages/Home';
 
-function App() {
-  return (
-  <>    
-    <NavBar/>
-    <ItemDetailContainer/>
-    {/* <ItemListContainer/> */}
-  </>
-  )
-}
+const App = () => {
+    return <Home />;
+};
 
 export default App;
