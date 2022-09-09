@@ -27,11 +27,11 @@ function NavBar() {
                         <li className="menu__item"><Link onClick={scrollTopOnClick} to="/">Inicio</Link></li>
                         <li className="menu__item dropdown">Generos
                             <div className="dropdown-content">
-                                <Link onClick={scrollTopOnClick} to="/category/2">Ciencia Ficcion</Link>
-                                <Link onClick={scrollTopOnClick} to="/category/1">Novela</Link>
-                                <Link onClick={scrollTopOnClick} to="/category/3">Novela Romantica</Link>
-                                <Link onClick={scrollTopOnClick} to="/category/5">Novela Fantastica</Link>
-                                <Link onClick={scrollTopOnClick} to="/category/4">Novela De Terror</Link>
+                                <Link onClick={scrollTopOnClick} to="/category/ciencia-ficcion">Ciencia Ficcion</Link>
+                                <Link onClick={scrollTopOnClick} to="/category/novela">Novela</Link>
+                                <Link onClick={scrollTopOnClick} to="/category/novela-romantica">Novela Romantica</Link>
+                                <Link onClick={scrollTopOnClick} to="/category/novela-fantastica">Novela Fantastica</Link>
+                                <Link onClick={scrollTopOnClick} to="/category/novela-de-terror">Novela De Terror</Link>
                             </div>
                         </li>
 
