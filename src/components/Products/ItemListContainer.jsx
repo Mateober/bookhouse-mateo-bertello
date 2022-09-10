@@ -24,7 +24,10 @@ const ItemListContainer = () => {
     // Fin useEffect
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of f56702d (Primera Entrega del Proyecto Final ahora si)
 /*     const [isLoading, setIsLoading] = useState(true);
     useEffect(()=>{
      const getIsLoading = new Promise((resolve) => {
@@ -36,6 +39,9 @@ const ItemListContainer = () => {
     getIsLoading.then(res => setIsLoading(res));   
     }) */
 
+<<<<<<< HEAD
+>>>>>>> parent of f56702d (Primera Entrega del Proyecto Final ahora si)
+=======
 >>>>>>> parent of f56702d (Primera Entrega del Proyecto Final ahora si)
     return (
         <>
