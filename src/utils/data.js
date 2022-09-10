@@ -8,7 +8,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/wvYB1Z42/al-final-los-dos-mueren.jpg',
         sales: 0,
         category: {
-            name: 'novela',
+            name: 'Novela',
             categoryId: 1,
         },
         details: {
@@ -29,7 +29,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/QdBN0hRS/hecha-de-estrellas.jpg',
         sales: 0,
         category: {
-            name: 'novela',
+            name: 'Novela',
             categoryId: 1,
         },
         details: {
@@ -51,7 +51,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/0jc5HQkX/la-desobediente.jpg',
         sales: 0,
         category: {
-            name: 'novela',
+            name: 'Novela',
             categoryId: 1,
         },
         details: {
@@ -73,7 +73,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/W3m1g8Qv/perfectos-mentirosos.jpg',
         sales: 0,
         category: {
-            name: 'novela',
+            name: 'Novela',
             categoryId: 1,
         },
         details: {
@@ -95,7 +95,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/D02ygsTb/perfectos-mentiroso-2.jpg',
         sales: 0,
         category: {
-            name: 'novela',
+            name: 'Novela',
             categoryId: 1,
         },
         details: {
@@ -117,7 +117,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/7YZZJg9F/seras.jpg',
         sales: 0,
         category: {
-            name: 'novela',
+            name: 'Novela',
             categoryId: 1,
         },
         details: {
@@ -139,7 +139,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/kMc55jQN/still-with-you.jpg',
         sales: 0,
         category: {
-            name: 'novela',
+            name: 'Novela',
             categoryId: 1,
         },
         details: {
@@ -161,7 +161,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/WbYbGhfh/todas-nuestras-noches.jpg',
         sales: 0,
         category: {
-            name: 'novela',
+            name: 'Novela',
             categoryId: 1,
         },
         details: {
@@ -183,7 +183,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/26LFN20h/el-mar-infinito.jpg',
         sales: 0,
         category: {
-            name: 'ciencia-ficcion',
+            name: 'Ciencia Ficcion',
             categoryId: 2,
         },
         details: {
@@ -205,7 +205,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/02YnNXPC/la-quinta-ola.jpg',
         sales: 0,
         category: {
-            name: 'ciencia-ficcion',
+            name: 'Ciencia Ficcion',
             categoryId: 2,
         },
         details: {
@@ -226,7 +226,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/xTDgnVDC/liberame.jpg',
         sales: 0,
         category: {
-            name: 'ciencia-ficcion',
+            name: 'Ciencia Ficcion',
             categoryId: 2,
         },
         details: {
@@ -247,7 +247,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/TwKQYR3y/nyxia-sublevada.jpg',
         sales: 0,
         category: {
-            name: 'ciencia-ficcion',
+            name: 'Ciencia Ficcion',
             categoryId: 2,
         },
         details: {
@@ -268,7 +268,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/vBCh4p40/rebelion.jpg',
         sales: 0,
         category: {
-            name: 'ciencia-ficcion',
+            name: 'Ciencia Ficcion',
             categoryId: 2,
         },
         details: {
@@ -289,7 +289,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/P5H6zs2c/una-luz-incierta.jpg',
         sales: 0,
         category: {
-            name: 'ciencia-ficcion',
+            name: 'Ciencia Ficcion',
             categoryId: 2,
         },
         details: {
@@ -310,7 +310,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/mDwB3zzn/a-dos-metros-de-ti.jpg',
         sales: 0,
         category: {
-            name: 'novela-romantica',
+            name: 'Novela Romantica',
             categoryId: 3,
         },
         details: {
@@ -331,7 +331,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/zDxqVh1b/antes-de-diciembre.jpg',
         sales: 0,
         category: {
-            name: 'novela-romantica',
+            name: 'Novela Romantica',
             categoryId: 3,
         },
         details: {
@@ -352,7 +352,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/3JWYpwKL/boulevard.jpg',
         sales: 0,
         category: {
-            name: 'novela-romantica',
+            name: 'Novela Romantica',
             categoryId: 3,
         },
         details: {
@@ -373,7 +373,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/d3NFXb9m/boulevard-despues-de-el.jpg',
         sales: 0,
         category: {
-            name: 'novela-romantica',
+            name: 'Novela Romantica',
             categoryId: 3,
         },
         details: {
@@ -394,7 +394,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/sXy3Z9XS/carry-on.jpg',
         sales: 0,
         category: {
-            name: 'novela-romantica',
+            name: 'Novela Romantica',
             categoryId: 3,
         },
         details: {
@@ -415,7 +415,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/yx8BL108/dimelo-en-secreto.jpg',
         sales: 0,
         category: {
-            name: 'novela-romantica',
+            name: 'Novela Romantica',
             categoryId: 3,
         },
         details: {
@@ -436,7 +436,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/43pJdFJs/karma-al-instante.jpg',
         sales: 0,
         category: {
-            name: 'novela-romantica',
+            name: 'Novela Romantica',
             categoryId: 3,
         },
         details: {
@@ -457,7 +457,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/W1BNsPc5/todo-este-tiempo.jpg',
         sales: 0,
         category: {
-            name: 'novela-romantica',
+            name: 'Novela Romantica',
             categoryId: 3,
         },
         details: {
@@ -478,7 +478,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/28JmxfyC/una-ultima-luna.jpg',
         sales: 0,
         category: {
-            name: 'novela-romantica',
+            name: 'Novela Romantica',
             categoryId: 3,
         },
         details: {
@@ -499,7 +499,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/vH5VVMG6/la-mas-callada-de-la-clase.jpg',
         sales: 0,
         category: {
-            name: 'novela-de-terror',
+            name: 'Novela De Terror',
             categoryId: 4,
         },
         details: {
@@ -520,7 +520,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/sfQS378m/graymoor.jpg',
         sales: 0,
         category: {
-            name: 'novela-de-terror',
+            name: 'Novela De Terror',
             categoryId: 4,
         },
         details: {
@@ -541,7 +541,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/c1p3C6GS/el-barquero-de-almas.jpg',
         sales: 0,
         category: {
-            name: 'novela-de-terror',
+            name: 'Novela De Terror',
             categoryId: 4,
         },
         details: {
@@ -562,7 +562,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/63kCkfr8/el-bosque-de-las-cosas-perdidas.jpg',
         sales: 0,
         category: {
-            name: 'novela-fantastica',
+            name: 'Novela Fantastica',
             categoryId: 5,
         },
         details: {
@@ -583,7 +583,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/YCdYrHNK/la-jaula-del-rey.jpg',
         sales: 0,
         category: {
-            name: 'novela-fantastica',
+            name: 'Novela Fantastica',
             categoryId: 5,
         },
         details: {
@@ -604,7 +604,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/25JWW7X0/tormenta-de-guerra.jpg',
         sales: 0,
         category: {
-            name: 'novela-fantastica',
+            name: 'Novela Fantastica',
             categoryId: 5,
         },
         details: {
@@ -625,7 +625,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/fbkXkr53/lengendary.jpg',
         sales: 0,
         category: {
-            name: 'novela-fantastica',
+            name: 'Novela Fantastica',
             categoryId: 5,
         },
         details: {
@@ -646,7 +646,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/s20Ycr19/harrypotter1.jpg',
         sales: 0,
         category: {
-            name: 'novela-fantastica',
+            name: 'Novela Fantastica',
             categoryId: 5,
         },
         details: {
@@ -667,7 +667,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/JnDbY2kw/harrypotter2.jpg',
         sales: 0,
         category: {
-            name: 'novela-fantastica',
+            name: 'Novela Fantastica',
             categoryId: 5,
         },
         details: {
@@ -688,7 +688,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/Nfw1bbGV/harrypotter3.jpg',
         sales: 0,
         category: {
-            name: 'novela-fantastica',
+            name: 'Novela Fantastica',
             categoryId: 5,
         },
         details: {
@@ -709,7 +709,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/5Nq8rv6t/harrypotter4.jpg',
         sales: 0,
         category: {
-            name: 'novela-fantastica',
+            name: 'Novela Fantastica',
             categoryId: 5,
         },
         details: {
@@ -730,7 +730,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/D011n46B/harrypotter5.jpg',
         sales: 0,
         category: {
-            name: 'novela-fantastica',
+            name: 'Novela Fantastica',
             categoryId: 5,
         },
         details: {
@@ -751,7 +751,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/x1fLVCz3/harrypotter6.jpg',
         sales: 0,
         category: {
-            name: 'novela-fantastica',
+            name: 'Novela Fantastica',
             categoryId: 5,
         },
         details: {
@@ -772,7 +772,7 @@ const dataFromBD = [
         img: 'https://i.postimg.cc/KcTPnCbB/harrypotter7.jpg',
         sales: 0,
         category: {
-            name: 'novela-fantastica',
+            name: 'Novela Fantastica',
             categoryId: 5,
         },
         details: {
@@ -793,7 +793,7 @@ const dataFromBD = [
         img: '',
         sales: 0,
         category: {
-            name: 'novela-fantastica',
+            name: 'Novela Fantastica',
             categoryId: 5,
         },
         details: {

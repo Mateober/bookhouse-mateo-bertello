@@ -6,7 +6,7 @@ import { useParams } from 'react-router-dom';
 
 const ItemListContainer = () => {
     const [data, setData] = useState([]);
-    const { nameCategory } = useParams();
+    const { idCategory } = useParams();
     
     // Inicio useEffect
     useEffect(() => {
@@ -15,15 +15,15 @@ const ItemListContainer = () => {
                 resolve(dataFromBD);
             }, 2000);
         });
-        if (nameCategory) {
-            getData.then(res => setData(res.filter(item => item.category.name === nameCategory)));
+        if (idCategory) {
+            getData.then(res => setData(res.filter(item => item.category.categoryId === parseInt(idCategory))));
         } else {
             getData.then((res) => setData(res));
         }
-    }, [nameCategory])
+    }, [idCategory])
     // Fin useEffect
 
-/*     const [isLoading, setIsLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(true);
     useEffect(()=>{
      const getIsLoading = new Promise((resolve) => {
         setTimeout(() => {
@@ -32,8 +32,9 @@ const ItemListContainer = () => {
     });
 
     getIsLoading.then(res => setIsLoading(res));   
-    }) */
+    })
 
+    
     return (
         <>
             { data.length  ? 
