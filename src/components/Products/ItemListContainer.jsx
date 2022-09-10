@@ -22,17 +22,6 @@ const ItemListContainer = () => {
         }
     }, [nameCategory])
     // Fin useEffect
-
-/*     const [isLoading, setIsLoading] = useState(true);
-    useEffect(()=>{
-     const getIsLoading = new Promise((resolve) => {
-        setTimeout(() => {
-            resolve(false);
-        }, 2000);
-    });
-    getIsLoading.then(res => setIsLoading(res));   
-    }) */
-
     return (
         <>
             { data.length  ? 
