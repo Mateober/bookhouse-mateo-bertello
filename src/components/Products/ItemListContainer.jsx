@@ -6,7 +6,7 @@ import { useParams } from 'react-router-dom';
 
 const ItemListContainer = () => {
     const [data, setData] = useState([]);
-    const { idCategory } = useParams();
+    const { nameCategory } = useParams();
     
     // Inicio useEffect
     useEffect(() => {
@@ -15,19 +15,14 @@ const ItemListContainer = () => {
                 resolve(dataFromBD);
             }, 2000);
         });
-        if (idCategory) {
-            getData.then(res => setData(res.filter(item => item.category.categoryId === parseInt(idCategory))));
+        if (nameCategory) {
+            getData.then(res => setData(res.filter(item => item.category.name === nameCategory)));
         } else {
             getData.then((res) => setData(res));
         }
-    }, [idCategory])
+    }, [nameCategory])
     // Fin useEffect
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of f56702d (Primera Entrega del Proyecto Final ahora si)
 /*     const [isLoading, setIsLoading] = useState(true);
     useEffect(()=>{
      const getIsLoading = new Promise((resolve) => {
@@ -35,14 +30,9 @@ const ItemListContainer = () => {
             resolve(false);
         }, 2000);
     });
-
     getIsLoading.then(res => setIsLoading(res));   
     }) */
 
-<<<<<<< HEAD
->>>>>>> parent of f56702d (Primera Entrega del Proyecto Final ahora si)
-=======
->>>>>>> parent of f56702d (Primera Entrega del Proyecto Final ahora si)
     return (
         <>
             { data.length  ? 
