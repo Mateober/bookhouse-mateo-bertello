@@ -23,6 +23,20 @@ const ItemListContainer = () => {
     }, [idCategory])
     // Fin useEffect
 
+<<<<<<< HEAD
+=======
+/*     const [isLoading, setIsLoading] = useState(true);
+    useEffect(()=>{
+     const getIsLoading = new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(false);
+        }, 2000);
+    });
+
+    getIsLoading.then(res => setIsLoading(res));   
+    }) */
+
+>>>>>>> parent of f56702d (Primera Entrega del Proyecto Final ahora si)
     return (
         <>
             { data.length  ? 
