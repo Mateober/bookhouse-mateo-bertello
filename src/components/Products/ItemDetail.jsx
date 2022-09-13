@@ -1,10 +1,10 @@
 import React from 'react';
 import ItemCount from './ItemCount';
 
-function ItemDetail({item}) {
+function ItemDetail({ item }) {
     return (
         <>
-        <div className="description">
+            <div className="description">
                 <div className="description__img">
                     <img src={item.img} alt="" />
                 </div>
@@ -13,7 +13,7 @@ function ItemDetail({item}) {
                         <p className="details__author">{item.author}</p>
                         <i className="fa-regular fa-heart"></i>
                     </div>
-                        <p className="details__title">{item.title}</p>
+                    <p className="details__title">{item.title}</p>
                     <div className="details__idshare">
                         <p className="details__idshare--id">ID: {item.id}</p>
                         <p className="details__idshare--share">
@@ -22,19 +22,19 @@ function ItemDetail({item}) {
                     </div>
                     <p className="details__precio">PRECIO</p>
                     <p className="details__price">${item.price}</p>
-                    <ItemCount initial={1} stockItem={item.stock}/>
+                    <ItemCount initial={1} stockItem={item.stock} />
                     <div className="mediodepago">
                         <p className="mediodepago__title">Medios de pago</p>
                         <p className="mediodepago__subtitle">Credito</p>
-                        <img src="https://i.postimg.cc/bNnCSsgD/credito1americanexpress.png" alt=""/>
-                        <img src="https://i.postimg.cc/MZN3Gy7J/credito2visa.png" alt=""/>
-                        <img src="https://i.postimg.cc/wx7bHWsk/credito3mastercard.png" alt=""/>
-                        <img src="https://i.postimg.cc/sgRnYsHn/credito4cabal.png" alt=""/>
-                        <img src="https://i.postimg.cc/JtCGyDh5/credito5naranja.png" alt=""/>
+                        <img src="https://i.postimg.cc/bNnCSsgD/credito1americanexpress.png" alt="" />
+                        <img src="https://i.postimg.cc/MZN3Gy7J/credito2visa.png" alt="" />
+                        <img src="https://i.postimg.cc/wx7bHWsk/credito3mastercard.png" alt="" />
+                        <img src="https://i.postimg.cc/sgRnYsHn/credito4cabal.png" alt="" />
+                        <img src="https://i.postimg.cc/JtCGyDh5/credito5naranja.png" alt="" />
                         <p className="mediodepago__subtitle">Debito</p>
-                        <img src="https://i.postimg.cc/k4ZVmh3Z/debito1cabal.png" alt=""/>
-                        <img src="https://i.postimg.cc/5yCXNqft/debito2mastecard.png" alt=""/>
-                        <img src="https://i.postimg.cc/XJXZt6hd/debito3visa.png" alt=""/>
+                        <img src="https://i.postimg.cc/k4ZVmh3Z/debito1cabal.png" alt="" />
+                        <img src="https://i.postimg.cc/5yCXNqft/debito2mastecard.png" alt="" />
+                        <img src="https://i.postimg.cc/XJXZt6hd/debito3visa.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -48,7 +48,6 @@ function ItemDetail({item}) {
                         <p>ISBN: {item.details.ISBN}</p>
                         <p>Idioma: {item.details.idioma}</p>
                     </div>
-
                 </div>
                 <div className="sinopsis">
                     <p id="sinopsis__title">Sinopsis</p>
@@ -58,7 +57,7 @@ function ItemDetail({item}) {
                 </div>
             </div>
         </>
-    )
+    );
 }
 
-export default ItemDetail
+export default ItemDetail;
