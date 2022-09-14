@@ -1,7 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ItemCount from './ItemCount';
+import { Link } from 'react-router-dom';
 
 function ItemDetail({ item }) {
+    const [goToCart, setGoToCart] = useState(false);
+
+    const onAdd = (quantity) => {
+        setGoToCart(true)
+    }
+
     return (
         <>
             <div className="description">
@@ -22,7 +29,11 @@ function ItemDetail({ item }) {
                     </div>
                     <p className="details__precio">PRECIO</p>
                     <p className="details__price">${item.price}</p>
-                    <ItemCount initial={1} stockItem={item.stock} />
+                    {
+                        goToCart 
+                            ? <Link to="/cart"><button id="button__terminar">Terminar compra</button></Link> 
+                            : <ItemCount initial={1} stockItem={item.stock} onAdd={onAdd}/>
+                    }
                     <div className="mediodepago">
                         <p className="mediodepago__title">Medios de pago</p>
                         <p className="mediodepago__subtitle">Credito</p>

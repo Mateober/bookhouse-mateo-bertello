@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function ItemCount({ stockItem, initial }) {
+function ItemCount({ stockItem, initial, onAdd}) {
     let [counter, setCounter] = useState(initial);
     const sumarClick = () => {
         if (counter < stockItem) {
@@ -10,15 +10,6 @@ function ItemCount({ stockItem, initial }) {
     const restarClick = () => {
         if (counter > initial) {
             setCounter(counter - 1);
-        }
-    };
-
-    const onAdd = () => {
-        if (counter > 0) {
-            alert('Enviaste al carrito ' + counter + ' producto');
-            setCounter(initial);
-        } else {
-            alert('No hay stock');
         }
     };
 
