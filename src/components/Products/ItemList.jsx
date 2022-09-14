@@ -20,7 +20,7 @@ function ItemList({ data }) {
                     price={item.price}
                     img={item.img}
                     id={item.id}
-                    /* stock={item.stock} */
+                    category={item.category.name}
                 />
             ))}
         </>

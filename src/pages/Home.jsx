@@ -11,7 +11,7 @@ function Home() {
                 <Routes>
                     <Route path="/" element={<ItemListContainer />}></Route>
                     <Route path="/category/:nameCategory" element={<ItemListContainer />} />
-                    <Route path="/item/:idItem" element={<ItemDetailContainer />}></Route>
+                    <Route path="/item/:nameCategory/:idItem" element={<ItemDetailContainer />}></Route>
                 </Routes>
             </BrowserRouter>
         </>

@@ -4,11 +4,9 @@ import { Link } from 'react-router-dom';
 
 function ItemDetail({ item }) {
     const [goToCart, setGoToCart] = useState(false);
-
-    const onAdd = (quantity) => {
+    const onAdd = () => {
         setGoToCart(true)
     }
-
     return (
         <>
             <div className="description">
