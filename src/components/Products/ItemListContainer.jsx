@@ -31,14 +31,14 @@ const ItemListContainer = () => {
     // Fin useEffect
     return (
         <>
-            { isLoading === false  ? 
+            { isLoading ? 
+                <Loading /> 
+                :
                 <div className="productCatalog" id="productCatalog">
                     <div className="gridCatalog">
                         <ItemList data={data} />
                     </div>
                 </div>
-             : 
-                <Loading />
             }
         </>
     );

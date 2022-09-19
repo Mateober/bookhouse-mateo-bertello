@@ -6,16 +6,15 @@
     height: 100vh;
     padding: 20px;
     background-color: white;
-    transition: 0.8s;
     overflow-x: hidden;
     overflow-y: scroll;
     z-index: 15;
-    /* right: 0; */
+    transition: 1s;
+}
+.cart.active {
+    right: 0;
     transition: 0.5s;
 }
-/* .cart.active {
-
-} */
 .cart-title {
     text-align: center;
     font-size: 32px;
@@ -95,10 +94,10 @@
 #close-cart {
     position: absolute;
     top: 16px;
-    right: 13px;
+    left: 13px;
     cursor: pointer;
-    font-size: 30px;
-    color: Black;
+    font-size: 25px;
+    color: #1f2b43;
 }
 
 @media screen and (max-width: 1000px) {

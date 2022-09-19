@@ -25,7 +25,7 @@ const ItemDetailContainer = () => {
         getIsLoading.then(res => setIsLoading(res));
         
     }, [idItem]);
-    return <>{ isLoading === false ? <ItemDetail item={data} /> : <Loading />}</>;
+    return <> { isLoading ? <Loading /> : <ItemDetail item={data} />}</>;
 };
 
 export default ItemDetailContainer;

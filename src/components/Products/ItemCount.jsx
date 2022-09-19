@@ -25,7 +25,7 @@ function ItemCount({ stockItem, initial, onAdd}) {
                 <button onClick={sumarClick}><i className="fa-solid fa-plus"></i></button>
             </div>
             <p className="details__stock">{stockItem} disponibles</p>
-            <button onClick={onAdd} id="button__buy">Comprar</button>
+            <button onClick={()=>onAdd(counter)} id="button__buy">Comprar</button>
         </>
     );
 }

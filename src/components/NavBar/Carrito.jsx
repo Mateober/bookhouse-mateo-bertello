@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Carrito() {
+function Carrito({ claseCart, clickCerrarCart }) {
     return (
         <div className="contenedor__carrito">
-            <div className="cart">
+            <div className={claseCart}>
                 <h2 className="cart-title">Tu Carrito</h2>
                 <div className="cart-content">
                     <div className="cart-box">
@@ -29,10 +30,12 @@ function Carrito() {
                     <div className="total-title">Total</div>
                     <div className="total-price">$0</div>
                 </div>
-                <button type="button" className="btn-buy-cart">
-                    Pagá ahora
-                </button>
-                <i className="fa-solid fa-xmark cross-icon" id="close-cart"></i>
+                <Link onClick={clickCerrarCart} to="/cart">
+                    <button type="button" className="btn-buy-cart">
+                        Finalizar Compra
+                    </button>
+                </Link>
+                <i onClick={clickCerrarCart} className="fa-solid fa-xmark cross-icon" id="close-cart"></i>
             </div>
         </div>
     );

@@ -6,7 +6,8 @@ const dataFromBD = [
         author: 'ADAM SILVERA',
         price: 3490,
         img: 'https://i.postimg.cc/wvYB1Z42/al-final-los-dos-mueren.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela',
             categoryId: 1,
@@ -27,7 +28,8 @@ const dataFromBD = [
         author: 'ASHLEY HERRING BLAKE',
         price: 2899,
         img: 'https://i.postimg.cc/QdBN0hRS/hecha-de-estrellas.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela',
             categoryId: 1,
@@ -49,7 +51,8 @@ const dataFromBD = [
         author: 'PAULA BOMBARA',
         price: 1450,
         img: 'https://i.postimg.cc/0jc5HQkX/la-desobediente.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela',
             categoryId: 1,
@@ -71,7 +74,8 @@ const dataFromBD = [
         author: 'Alex Mírez',
         price: 3299,
         img: 'https://i.postimg.cc/W3m1g8Qv/perfectos-mentirosos.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela',
             categoryId: 1,
@@ -93,7 +97,8 @@ const dataFromBD = [
         author: 'Alex Mírez',
         price: 3299,
         img: 'https://i.postimg.cc/D02ygsTb/perfectos-mentiroso-2.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela',
             categoryId: 1,
@@ -115,7 +120,8 @@ const dataFromBD = [
         author: 'ANNA K FRANCO',
         price: 3199,
         img: 'https://i.postimg.cc/7YZZJg9F/seras.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela',
             categoryId: 1,
@@ -137,7 +143,8 @@ const dataFromBD = [
         author: 'LILY DEL PILAR',
         price: 2900,
         img: 'https://i.postimg.cc/kMc55jQN/still-with-you.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela',
             categoryId: 1,
@@ -159,7 +166,8 @@ const dataFromBD = [
         author: 'MAXIMILIANO PIZZICOTTI',
         price: 2999,
         img: 'https://i.postimg.cc/WbYbGhfh/todas-nuestras-noches.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela',
             categoryId: 1,
@@ -181,7 +189,8 @@ const dataFromBD = [
         author: 'RICK YANCEY',
         price: 2999,
         img: 'https://i.postimg.cc/26LFN20h/el-mar-infinito.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'ciencia-ficcion',
             categoryId: 2,
@@ -203,7 +212,8 @@ const dataFromBD = [
         author: 'RICK YANCEY',
         price: 4099,
         img: 'https://i.postimg.cc/02YnNXPC/la-quinta-ola.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'ciencia-ficcion',
             categoryId: 2,
@@ -224,7 +234,8 @@ const dataFromBD = [
         author: 'TAHEREH MAFI',
         price: 3290,
         img: 'https://i.postimg.cc/xTDgnVDC/liberame.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'ciencia-ficcion',
             categoryId: 2,
@@ -245,7 +256,8 @@ const dataFromBD = [
         author: 'SCOTT REINTGEN',
         price: 2540,
         img: 'https://i.postimg.cc/TwKQYR3y/nyxia-sublevada.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'ciencia-ficcion',
             categoryId: 2,
@@ -266,7 +278,8 @@ const dataFromBD = [
         author: 'ANNA K FRANCO',
         price: 2999,
         img: 'https://i.postimg.cc/vBCh4p40/rebelion.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'ciencia-ficcion',
             categoryId: 2,
@@ -287,7 +300,8 @@ const dataFromBD = [
         author: 'ALEXANDRA BRACKEN',
         price: 4099,
         img: 'https://i.postimg.cc/P5H6zs2c/una-luz-incierta.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'ciencia-ficcion',
             categoryId: 2,
@@ -308,7 +322,8 @@ const dataFromBD = [
         author: 'Rachael Lippincott',
         price: 3349,
         img: 'https://i.postimg.cc/mDwB3zzn/a-dos-metros-de-ti.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-romantica',
             categoryId: 3,
@@ -329,7 +344,8 @@ const dataFromBD = [
         author: 'JOANA MARCUS',
         price: 4249,
         img: 'https://i.postimg.cc/zDxqVh1b/antes-de-diciembre.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-romantica',
             categoryId: 3,
@@ -350,7 +366,8 @@ const dataFromBD = [
         author: 'FLOR SALVADOR',
         price: 3049,
         img: 'https://i.postimg.cc/3JWYpwKL/boulevard.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-romantica',
             categoryId: 3,
@@ -371,7 +388,8 @@ const dataFromBD = [
         author: 'FLOR SALVADOR',
         price: 3049,
         img: 'https://i.postimg.cc/d3NFXb9m/boulevard-despues-de-el.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-romantica',
             categoryId: 3,
@@ -392,7 +410,8 @@ const dataFromBD = [
         author: 'RAINBOW ROWELL',
         price: 4399,
         img: 'https://i.postimg.cc/sXy3Z9XS/carry-on.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-romantica',
             categoryId: 3,
@@ -413,7 +432,8 @@ const dataFromBD = [
         author: 'MERCEDES RON',
         price: 4169,
         img: 'https://i.postimg.cc/yx8BL108/dimelo-en-secreto.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-romantica',
             categoryId: 3,
@@ -434,7 +454,8 @@ const dataFromBD = [
         author: 'MARISSA MEYER',
         price: 3199,
         img: 'https://i.postimg.cc/43pJdFJs/karma-al-instante.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-romantica',
             categoryId: 3,
@@ -455,7 +476,8 @@ const dataFromBD = [
         author: 'Rachael Lippincott',
         price: 3349,
         img: 'https://i.postimg.cc/W1BNsPc5/todo-este-tiempo.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-romantica',
             categoryId: 3,
@@ -476,7 +498,8 @@ const dataFromBD = [
         author: 'María Sol Iannaci',
         price: 2500,
         img: 'https://i.postimg.cc/28JmxfyC/una-ultima-luna.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-romantica',
             categoryId: 3,
@@ -497,7 +520,8 @@ const dataFromBD = [
         author: 'Sergio Aguirre',
         price: 1450,
         img: 'https://i.postimg.cc/vH5VVMG6/la-mas-callada-de-la-clase.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-de-terror',
             categoryId: 4,
@@ -518,7 +542,8 @@ const dataFromBD = [
         author: 'SEBASTIAN VARGAS',
         price: 1450,
         img: 'https://i.postimg.cc/sfQS378m/graymoor.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-de-terror',
             categoryId: 4,
@@ -539,7 +564,8 @@ const dataFromBD = [
         author: 'CLAIRE MCFALL',
         price: 2850,
         img: 'https://i.postimg.cc/c1p3C6GS/el-barquero-de-almas.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-de-terror',
             categoryId: 4,
@@ -560,7 +586,8 @@ const dataFromBD = [
         author: 'SHEA ERNSHAW',
         price: 3390,
         img: 'https://i.postimg.cc/63kCkfr8/el-bosque-de-las-cosas-perdidas.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-fantastica',
             categoryId: 5,
@@ -581,7 +608,8 @@ const dataFromBD = [
         author: 'VICTORIA AVEYARD',
         price: 3620,
         img: 'https://i.postimg.cc/YCdYrHNK/la-jaula-del-rey.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-fantastica',
             categoryId: 5,
@@ -602,7 +630,8 @@ const dataFromBD = [
         author: 'VICTORIA AVEYARD',
         price: 3620,
         img: 'https://i.postimg.cc/25JWW7X0/tormenta-de-guerra.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-fantastica',
             categoryId: 5,
@@ -623,7 +652,8 @@ const dataFromBD = [
         author: 'STEPHANIE GARBER',
         price: 3490,
         img: 'https://i.postimg.cc/fbkXkr53/lengendary.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-fantastica',
             categoryId: 5,
@@ -644,7 +674,8 @@ const dataFromBD = [
         author: 'J.K. ROWLING',
         price: 4049,
         img: 'https://i.postimg.cc/s20Ycr19/harrypotter1.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-fantastica',
             categoryId: 5,
@@ -665,7 +696,8 @@ const dataFromBD = [
         author: 'J.K. ROWLING',
         price: 4049,
         img: 'https://i.postimg.cc/JnDbY2kw/harrypotter2.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-fantastica',
             categoryId: 5,
@@ -686,7 +718,8 @@ const dataFromBD = [
         author: 'J.K. ROWLING',
         price: 4049,
         img: 'https://i.postimg.cc/Nfw1bbGV/harrypotter3.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-fantastica',
             categoryId: 5,
@@ -707,7 +740,8 @@ const dataFromBD = [
         author: 'J.K. ROWLING',
         price: 6299,
         img: 'https://i.postimg.cc/5Nq8rv6t/harrypotter4.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-fantastica',
             categoryId: 5,
@@ -728,7 +762,8 @@ const dataFromBD = [
         author: 'J.K. ROWLING',
         price: 7899,
         img: 'https://i.postimg.cc/D011n46B/harrypotter5.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-fantastica',
             categoryId: 5,
@@ -749,7 +784,8 @@ const dataFromBD = [
         author: 'J.K. ROWLING',
         price: 5049,
         img: 'https://i.postimg.cc/x1fLVCz3/harrypotter6.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-fantastica',
             categoryId: 5,
@@ -770,7 +806,8 @@ const dataFromBD = [
         author: 'J.K. ROWLING',
         price: 6299,
         img: 'https://i.postimg.cc/KcTPnCbB/harrypotter7.jpg',
-        sales: 0,
+        sales: 0, 
+        quantity: 0,
         category: {
             name: 'novela-fantastica',
             categoryId: 5,
@@ -791,7 +828,7 @@ const dataFromBD = [
         author: '',
         price: ,
         img: '',
-        sales: 0,
+        sales: 0, quantity: 0,
         category: {
             name: 'novela-fantastica',
             categoryId: 5,
