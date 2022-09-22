@@ -21,6 +21,8 @@ function ItemList({ data }) {
                     img={item.img}
                     id={item.id}
                     category={item.category.name}
+                    item={item}
+                    stock={item.stock}
                 />
             ))}
         </>

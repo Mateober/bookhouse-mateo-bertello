@@ -1,8 +1,10 @@
 import React from 'react';
+import {useCartContext} from "../../context/CartContext"
 
 function CartWidget() {
+    const {totalProducts} = useCartContext()
     return (
-        <span id="counter">0</span>
+        <span id="counter">{totalProducts() || ""}</span>
     )
 }
 

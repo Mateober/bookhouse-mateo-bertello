@@ -1,15 +1,15 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import ItemCount from './ItemCount';
 import { Link } from 'react-router-dom';
-import { useCartContext } from '../Cart/CartContext';
+import { useCartContext } from '../../context/CartContext';
 
 function ItemDetail({ item }) {
     const [goToCart, setGoToCart] = useState(false);
-    const {addProduct} = useCartContext();
+    const { addProduct } = useCartContext();
     const onAdd = (quantity) => {
         setGoToCart(true);
         addProduct(item, quantity);
-    }
+    };
 
     return (
         <>
@@ -29,12 +29,16 @@ function ItemDetail({ item }) {
                             Compartir<i className="fa-solid fa-share-nodes"></i>
                         </p>
                     </div>
-                    <p className="details__precio">PRECIO</p>
-                    <p className="details__price">${item.price}</p>
-                    {
-                        goToCart 
-                            ? <Link to="/cart"><button id="button__terminar">Terminar compra</button></Link> 
-                            : <ItemCount initial={1} stockItem={item.stock} onAdd={onAdd}/>
+                    {goToCart ? 
+                        <>
+                            <p className="details__precio">PRECIO</p>
+                            <p className="details__price">${item.price}</p>
+                            <Link to="/cart">
+                                <button id="button__terminar">Terminar compra</button>
+                            </Link>
+                        </>
+                     : 
+                        <ItemCount initial={1} stockItem={item.stock} onAdd={onAdd} price={item.price} />
                     }
                     <div className="mediodepago">
                         <p className="mediodepago__title">Medios de pago</p>

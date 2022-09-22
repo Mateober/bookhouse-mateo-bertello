@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ItemList from './ItemList';
 import dataFromBD from '../../utils/data';
-import Loading from './Loading';
+import Loading from '../Loading/Loading';
 import { useParams } from 'react-router-dom';
 
 const ItemListContainer = () => {

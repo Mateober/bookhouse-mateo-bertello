@@ -1,15 +1,15 @@
 import NavBar from './../components/NavBar/NavBar';
-import ItemListContainer from './../components/Products/ItemListContainer';
-import ItemDetailContainer from './../components/Products/ItemDetailContainer';
+import ItemListContainer from './../components/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './../components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Cart from '../components/Cart/Cart';
-import CartProvider from '../components/Cart/CartContext';
+import CartProvider from '../context/CartContext';
 
 function Home() {
     return (
         <>
-            <BrowserRouter>
-                <CartProvider>
+            <CartProvider>
+                <BrowserRouter>
                     <NavBar />
                     <Routes>
                         <Route path="/" element={<ItemListContainer />}></Route>
@@ -17,8 +17,8 @@ function Home() {
                         <Route path="/item/:nameCategory/:idItem" element={<ItemDetailContainer />}></Route>
                         <Route path="/cart" element={<Cart />}></Route>
                     </Routes>
-                </CartProvider>
-            </BrowserRouter>
+                </BrowserRouter>
+            </CartProvider>
         </>
     );
 }

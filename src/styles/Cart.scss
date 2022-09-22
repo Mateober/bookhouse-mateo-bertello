@@ -6,6 +6,19 @@
     justify-content: space-between;
 }
 
+.sinProductoCarro {
+    font-size: 30px;
+    font-weight: 500;
+    color: #1f2b43;
+    margin: 20px 0 0 30px;
+    p {
+        padding-bottom: 30px;
+    }
+    i {
+        margin-right: 10px;
+    }
+}
+
 .cart__title {
     color: #1f2b43;
     font-size: 30px;
@@ -78,6 +91,7 @@
             font-size: 20px;
             margin-left: 10px;
             color: red;
+            cursor: pointer;
         }
         img {
             width: 70px;
@@ -118,6 +132,7 @@
         i {
             color: #1f2b43;
             font-size: 16px;
+            cursor: pointer;
         }
     }
     .cart__4 {
@@ -259,6 +274,16 @@
         width: 70%;
         height: 111px;
         justify-content: space-between;
+    }
+    .sinProductoCarro {
+        margin-left: 10px;
+        p {
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+        a {
+            font-size: 20px;
+        }
     }
 }
 @media (max-width:640px) {

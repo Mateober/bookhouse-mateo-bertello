@@ -1,7 +1,7 @@
 const dataFromBD = [
     {
         id: 1,
-        stock: 5,
+        stock: 0,
         title: 'AL FINAL MUEREN LOS DOS',
         author: 'ADAM SILVERA',
         price: 3490,

@@ -23,7 +23,12 @@ function NavBar() {
     //MODAL CART
     const [claseCart, setClaseCart] = useState("cart");
     const clickAbrirCart = () => {
-        setClaseCart("cart active")
+        if (claseCart === "cart active") {
+            clickCerrarCart()
+        }else {
+            setClaseCart("cart active")
+        }
+        
     }
     const clickCerrarCart = () => {
         setClaseCart("cart")

@@ -1,6 +1,23 @@
 import React from 'react';
+import { useCartContext } from '../../context/CartContext';
+import { Link } from 'react-router-dom';
+import ItemCart from './ItemCart';
 
 const Cart = () => {
+    const { cart, totalPrice } = useCartContext();
+
+    if (cart.length === 0) {
+        return (
+            <><div className="cart__page0">
+            <h2 className="cart__title">CARRITO DE COMPRAS</h2>
+            <div className='sinProductoCarro'>
+                <p >No hay productos en el carrito</p>
+                <Link to="/"><i className="fa-solid fa-arrow-left"></i>Volver al catalogo</Link>
+            </div>
+            </div>
+            </>
+        );
+    }
     return (
         <>
             <div className="cart__page0">
@@ -14,45 +31,11 @@ const Cart = () => {
                             <p className="col4">SUBTOTAL</p>
                         </div>
                         <div className="cart__table--body">
-                            <div className="cart__table--product">
-                                <div className="cart__1">
-                                    <button>
-                                        <i className="fa-solid fa-trash"></i>
-                                    </button>
-                                    <img src="https://i.postimg.cc/wvYB1Z42/al-final-los-dos-mueren.jpg" alt="" />
-                                </div>
-                                <div className="contenedor__infocarrito">
-                                    <div className="cart__1--2">
-                                        <p>AL FINAL MUEREN LOS DOSss sss ssssssss ssss sss sss sss ssss</p>
-                                    </div>
-                                    <div className="cart__2">
-                                        <span>Precio:</span>
-                                        <p>$3490</p>
-                                    </div>
-                                    <div className="cart__3">
-                                        <button>
-                                            <i className="fa-solid fa-minus"></i>
-                                        </button>
-                                        <p>1</p>
-                                        <button>
-                                            <i className="fa-solid fa-plus"></i>
-                                        </button>
-                                    </div>
-                                    <div className="cart__4">
-                                        <span>Subtotal:</span>
-                                        <p>$3490</p>
-                                    </div>
-                                </div>
-                            </div>
+                        {
+                            cart.map(product => <ItemCart key={product.id} product={product} />)
+                        }
                         </div>
                     </div>
-
-
-
-
-
-
-
                     <div className="buy__menu">
                         <div className="prueba">
                             <div className="buy__menu--1">
@@ -66,11 +49,11 @@ const Cart = () => {
                             </div>
                             <div className="buy__menu--4">
                                 <p>SUBTOTAL</p>
-                                <p>$3490</p>
+                                <p>${totalPrice()}</p>
                             </div>
                             <div className="buy__menu--5">
                                 <p>TOTAL</p>
-                                <p>$3490</p>
+                                <p>${totalPrice()}</p>
                             </div>
                             <div className="buy__menu--6">
                                 <button>INICIAR PAGO</button>
