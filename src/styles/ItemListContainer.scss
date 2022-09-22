@@ -55,7 +55,8 @@ main {
         display: flex;
         justify-content: space-around;
         border-top: 1px solid #d7d7d7;
-        .btn-details, .btn-buy {
+        .btn-details,
+        .btn-buy {
             background-color: white;
             color: #1f2b43;
             width: 120px;

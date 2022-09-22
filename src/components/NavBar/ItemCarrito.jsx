@@ -9,7 +9,7 @@ const ItemCarrito = ({ product }) => {
             <div className="detail-box">
                 <div className="cart-product-title">{product.title}</div>
                 <div className="cart-price">${product.price}</div>
-                <p className="cart-quantity">Cantidad: {product.quantity}</p> 
+                <p className="cart-quantity">Cantidad: {product.quantity}</p>
             </div>
             <i onClick={() => removeProduct(product.id)} className="fa-solid fa-trash cart-remove"></i>
         </div>

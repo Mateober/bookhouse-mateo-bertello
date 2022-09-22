@@ -2,17 +2,17 @@ import React, { useState } from 'react';
 
 function ItemCount({ stockItem, initial, onAdd, price }) {
     let [counter, setCounter] = useState(initial);
-    let[stock, setStock] = useState(stockItem-1);
+    let [stock, setStock] = useState(stockItem - 1);
     const sumarClick = () => {
         if (counter < stockItem) {
             setCounter(counter + 1);
-            setStock(stock-1)
+            setStock(stock - 1);
         }
     };
     const restarClick = () => {
         if (counter > initial) {
             setCounter(counter - 1);
-            setStock(stock+1)
+            setStock(stock + 1);
         }
     };
 
@@ -22,9 +22,9 @@ function ItemCount({ stockItem, initial, onAdd, price }) {
 
     return (
         <>
-            {stockItem === 0 ? 
+            {stockItem === 0 ? (
                 <p className="sinStock">No hay stock</p>
-             : 
+            ) : (
                 <>
                     <p className="details__precio">PRECIO</p>
                     <p className="details__price">${price}</p>
@@ -42,7 +42,7 @@ function ItemCount({ stockItem, initial, onAdd, price }) {
                         Comprar
                     </button>
                 </>
-            }
+            )}
         </>
     );
 }

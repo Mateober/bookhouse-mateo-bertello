@@ -23,7 +23,6 @@ const ItemDetailContainer = () => {
             }, 2000);
         });
         getIsLoading.then(res => setIsLoading(res));
-        
     }, [idItem]);
     return <> { isLoading ? <Loading /> : <ItemDetail item={data} />}</>;
 };

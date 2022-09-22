@@ -1,11 +1,15 @@
 import React, { useContext, useState } from 'react';
+import { useEffect } from 'react';
 const CartContext = React.createContext('');
 export const useCartContext = () => useContext(CartContext);
 
 const CartProvider = ({ children }) => {
-    const [cart, setCart] = useState([]);
+    const cartFromLocalStorage = JSON.parse(localStorage.getItem('cart') || '[]');
+    const [cart, setCart] = useState(cartFromLocalStorage);
     console.log(cart);
-    const [cantidadContador, setCantidadContador] = useState(0);
+    useEffect(() => {
+        localStorage.setItem('cart', JSON.stringify(cart));
+    }, [cart]);
 
     const addProduct = (item, quantity) => {
         if (isInCart(item.id)) {
@@ -44,8 +48,6 @@ const CartProvider = ({ children }) => {
                 totalProducts,
                 totalPrice,
                 cart,
-                cantidadContador,
-                setCantidadContador,
             }}
         >
             {children}

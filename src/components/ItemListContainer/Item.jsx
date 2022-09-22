@@ -4,18 +4,10 @@ import scrollTopOnClick from '../../utils/scrollTopOnClick';
 import { useCartContext } from '../../context/CartContext';
 
 const Item = ({ title, author, price, img, id, category, item, stock }) => {
-    const { addProduct, cantidadContador, setCantidadContador } = useCartContext();
-    /* function mapQuantity() {
-    return (
-        {cart.map}
-    )
-}     */
+    const { addProduct } = useCartContext();
     //! FALTA LIMITAR ONADD SEGUN EL STOCK
     const onAdd = () => {
-        if (cantidadContador < stock) {
-            addProduct(item, 1);
-            setCantidadContador(cantidadContador + 1);
-        }
+        addProduct(item, 1);
     };
 
     return (

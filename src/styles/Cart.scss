@@ -254,15 +254,18 @@
             display: flex;
         }
 
-        .cart__1--2, .cart__2, .cart__3, .cart__4 {
+        .cart__1--2,
+        .cart__2,
+        .cart__3,
+        .cart__4 {
             width: 100%;
         }
         .cart__3 {
             justify-content: start;
         }
         .cart__1 {
-        width: 120px;
-    }
+            width: 120px;
+        }
     }
 
     .cart__table {
@@ -286,7 +289,7 @@
         }
     }
 }
-@media (max-width:640px) {
+@media (max-width: 640px) {
     .cart__page0 {
         padding-top: 50px;
     }

@@ -29,7 +29,7 @@ function ItemDetail({ item }) {
                             Compartir<i className="fa-solid fa-share-nodes"></i>
                         </p>
                     </div>
-                    {goToCart ? 
+                    {goToCart ? (
                         <>
                             <p className="details__precio">PRECIO</p>
                             <p className="details__price">${item.price}</p>
@@ -37,9 +37,9 @@ function ItemDetail({ item }) {
                                 <button id="button__terminar">Terminar compra</button>
                             </Link>
                         </>
-                     : 
+                    ) : (
                         <ItemCount initial={1} stockItem={item.stock} onAdd={onAdd} price={item.price} />
-                    }
+                    )}
                     <div className="mediodepago">
                         <p className="mediodepago__title">Medios de pago</p>
                         <p className="mediodepago__subtitle">Credito</p>
