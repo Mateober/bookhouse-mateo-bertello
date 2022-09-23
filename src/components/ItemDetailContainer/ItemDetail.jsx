@@ -10,6 +10,7 @@ function ItemDetail({ item }) {
         setGoToCart(true);
         addProduct(item, quantity);
     };
+    console.log(item.quantity)
 
     return (
         <>
@@ -60,7 +61,7 @@ function ItemDetail({ item }) {
                     <p id="fichatecnica__title">Ficha Tecnica</p>
                     <div>
                         <p>Editorial: {item.details.editorial}</p>
-                        <p>Paginas: {item.details.páginas}</p>
+                        <p>Paginas: {item.details.paginas}</p>
                         <p>Peso: {item.details.peso} kg.</p>
                         <p>ISBN: {item.details.ISBN}</p>
                         <p>Idioma: {item.details.idioma}</p>

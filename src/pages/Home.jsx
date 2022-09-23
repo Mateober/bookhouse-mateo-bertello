@@ -4,6 +4,7 @@ import ItemDetailContainer from './../components/ItemDetailContainer/ItemDetailC
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Cart from '../components/Cart/Cart';
 import CartProvider from '../context/CartContext';
+import "../utils/firebaseConfig"
 
 function Home() {
     return (
