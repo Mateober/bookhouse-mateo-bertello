@@ -16,10 +16,6 @@ function ItemCount({ stockItem, initial, onAdd, price }) {
         }
     };
 
-    if (stockItem === 0) {
-        counter = 0;
-    }
-
     return (
         <>
             {stockItem === 0 ? (

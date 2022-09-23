@@ -11,13 +11,18 @@ const CartProvider = ({ children }) => {
         localStorage.setItem('cart', JSON.stringify(cart));
     }, [cart]);
 
+    const [goToCart, setGoToCart] = useState(false);
     const addProduct = (item, quantity) => {
         if (isInCart(item.id)) {
-            setCart(
-                cart.map((product) => {
-                    return product.id === item.id ? { ...product, quantity: product.quantity + quantity } : product;
-                })
-            );
+            if (hayCantidad(item.stock)) {
+                setCart(
+                    cart.map((product) => {
+                        return product.id === item.id ? { ...product, quantity: product.quantity + quantity } : product;
+                    })
+                );
+            } else {
+                alert('No hay stock');
+            }
         } else {
             setCart([...cart, { ...item, quantity }]);
         }
@@ -25,7 +30,20 @@ const CartProvider = ({ children }) => {
 
     const clearCart = () => {
         setCart([]);
+        alert('Gracias por tu compra');
     };
+
+    const deleteOne = (item, quantity) => {
+        if (isInCart(item.id)) {
+            setCart(
+                cart.map((product) => {
+                    return product.id === item.id ? { ...product, quantity: product.quantity + quantity } : product;
+                })
+            );
+        }
+    };
+
+    const hayCantidad = (stock) => (cart.find((product) => product.quantity < stock) ? true : false);
 
     const isInCart = (id) => (cart.find((product) => product.id === id) ? true : false);
 
@@ -47,6 +65,8 @@ const CartProvider = ({ children }) => {
                 addProduct,
                 totalProducts,
                 totalPrice,
+                hayCantidad,
+                deleteOne,
                 cart,
             }}
         >

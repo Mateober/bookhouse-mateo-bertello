@@ -90,13 +90,42 @@
             background-color: #a82b23;
         }
     }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
     #button__terminar {
         font-size: 20px;
         font-weight: 600;
         background-color: #1f2b43;
         color: white;
         padding: 7px 50px;
+        width: 300px;
         cursor: pointer;
+        margin-bottom: 23px;
+        i {
+            padding-left: 20px;
+        }
+        &:hover {
+            background-color: #294a8b;
+            transition: 0.2s;
+        }
+    }
+    #button__volver {
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #1f2b43;
+        color: white;
+        padding: 7px 20px;
+        width: 300px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        i {
+            padding-right: 20px;
+        }
         &:hover {
             background-color: #294a8b;
             transition: 0.2s;

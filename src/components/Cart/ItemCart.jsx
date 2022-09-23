@@ -2,16 +2,18 @@ import React from 'react';
 import { useCartContext } from '../../context/CartContext';
 
 const ItemCart = ({ product }) => {
-    const { removeProduct, addProduct } = useCartContext();
+    const { removeProduct, addProduct, deleteOne } = useCartContext();
 
     const sumarCantidad = () => {
         if (product.quantity < product.stock) {
             addProduct(product, 1);
+        } else {
+            alert('No hay stock');
         }
     };
     const restarCantidad = () => {
         if (product.quantity > 1) {
-            addProduct(product, -1);
+            deleteOne(product, -1);
         }
     };
     return (

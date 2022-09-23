@@ -64,6 +64,9 @@ main {
             padding: 20px 0;
             font-size: 14px;
             font-weight: 500;
+            i {
+                padding-right: 5px;
+            }
         }
         .btn-buy-sinstock {
             background-color: white;
@@ -72,6 +75,9 @@ main {
             padding: 20px 0;
             font-size: 14px;
             font-weight: 500;
+            i {
+                padding-right: 5px;
+            }
         }
     }
 }
@@ -97,7 +103,7 @@ main {
         grid-template-columns: repeat(2, 1fr);
     }
     .product__container {
-        margin: 5px 7px;
+        margin: 5px 5px;
         height: auto;
         width: 190px;
         img {
@@ -117,8 +123,13 @@ main {
             }
         }
         .product__container--options {
-            button {
+            .btn-details,
+            .btn-buy,
+            .btn-buy-sinstock {
                 width: 92px;
+             i{
+                padding-right: 0;
+             }
             }
         }
     }

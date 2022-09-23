@@ -7,11 +7,9 @@ function ItemDetail({ item }) {
     const [goToCart, setGoToCart] = useState(false);
     const { addProduct } = useCartContext();
     const onAdd = (quantity) => {
-        setGoToCart(true);
         addProduct(item, quantity);
+        setGoToCart(true);
     };
-    console.log(item.quantity)
-
     return (
         <>
             <div className="description">
@@ -34,9 +32,14 @@ function ItemDetail({ item }) {
                         <>
                             <p className="details__precio">PRECIO</p>
                             <p className="details__price">${item.price}</p>
-                            <Link to="/cart">
-                                <button id="button__terminar">Terminar compra</button>
-                            </Link>
+                            <div className="buttons">
+                                <Link to="/cart">
+                                    <button id="button__terminar">Ir al carrito<i class="fa-solid fa-arrow-right"></i></button>
+                                </Link>
+                                <Link to="/">
+                                    <button id="button__volver"><i class="fa-solid fa-arrow-left"></i>Volver al catalogo</button>
+                                </Link>
+                            </div>
                         </>
                     ) : (
                         <ItemCount initial={1} stockItem={item.stock} onAdd={onAdd} price={item.price} />
