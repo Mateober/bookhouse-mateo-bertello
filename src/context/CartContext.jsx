@@ -11,7 +11,6 @@ const CartProvider = ({ children }) => {
         localStorage.setItem('cart', JSON.stringify(cart));
     }, [cart]);
 
-    const [goToCart, setGoToCart] = useState(false);
     const addProduct = (item, quantity) => {
         if (isInCart(item.id)) {
             if (hayCantidad(item.stock)) {

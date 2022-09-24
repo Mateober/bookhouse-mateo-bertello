@@ -458,7 +458,7 @@
         "quantity": 0,
         "category": {
             "name": "novela-romantica",
-            "categoryId": 3,
+            "categoryId": 3
         },
         "details": {
             "editorial": "VR YA",
@@ -466,8 +466,8 @@
             "peso": "0.3",
             "ISBN": "9789877477504",
             "idioma": "Español",
-            "sinopsis": "Prudence está segura de que nadie puede hacer nada en el mundo mejor que ella. Especialmente el flojo e irresponsable de su compañero de Biología: Quint. Y el universo parece estar de acuerdo con ella, porque luego de un hilarante accidente despierta con la capacidad de provocar karma al instante a las personas y comienza a castigar toda mala acción a su alrededor: de actos de vandalismo a chismes maliciosos. Todos reciben su merecido. Todos... excepto Quint. Que parece ser inmune a sus poderes. Nueva novela de Marissa Meyer, autora Best Seller de la saga Crónicas Lunares, Renegados y Heartless.",
-        },
+            "sinopsis": "Prudence está segura de que nadie puede hacer nada en el mundo mejor que ella. Especialmente el flojo e irresponsable de su compañero de Biología: Quint. Y el universo parece estar de acuerdo con ella, porque luego de un hilarante accidente despierta con la capacidad de provocar karma al instante a las personas y comienza a castigar toda mala acción a su alrededor: de actos de vandalismo a chismes maliciosos. Todos reciben su merecido. Todos... excepto Quint. Que parece ser inmune a sus poderes. Nueva novela de Marissa Meyer, autora Best Seller de la saga Crónicas Lunares, Renegados y Heartless."
+        }
     },
     {
         "id": 22,
@@ -480,7 +480,7 @@
         "quantity": 0,
         "category": {
             "name": "novela-romantica",
-            "categoryId": 3,
+            "categoryId": 3
         },
         "details": {
             "editorial": "NUBE DE TINTA",
@@ -488,8 +488,8 @@
             "peso": "0.3",
             "ISBN": "9789871997480",
             "idioma": "Español",
-            "sinopsis": "Kyle y Kimberly eran la pareja perfecta desde el instituto. Pero la noche de su graduación tienen un accidente de coche y Kimberly muere. La vida de Kyle cambia para siempre y no parece que nadie pueda entender cómo se siente. Hasta que llega Marley. Ella también está pasando por una situación similar y, cuando conoce a Kyle, todas sus emociones secretas y nunca dichas conectan inmediatamente. Ambos han encontrado en el otro la respuesta a su dolor, pero algo está a punto de ocurrir que hará que sus vidas estallen de la forma más insospechada.",
-        },
+            "sinopsis": "Kyle y Kimberly eran la pareja perfecta desde el instituto. Pero la noche de su graduación tienen un accidente de coche y Kimberly muere. La vida de Kyle cambia para siempre y no parece que nadie pueda entender cómo se siente. Hasta que llega Marley. Ella también está pasando por una situación similar y, cuando conoce a Kyle, todas sus emociones secretas y nunca dichas conectan inmediatamente. Ambos han encontrado en el otro la respuesta a su dolor, pero algo está a punto de ocurrir que hará que sus vidas estallen de la forma más insospechada."
+        }
     },
     {
         "id": 23,
@@ -502,7 +502,7 @@
         "quantity": 0,
         "category": {
             "name": "novela-romantica",
-            "categoryId": 3,
+            "categoryId": 3
         },
         "details": {
             "editorial": "PLANETA",
@@ -510,8 +510,8 @@
             "peso": "0.3",
             "ISBN": "9789504976516",
             "idioma": "Español",
-            "sinopsis": "¿Será suficiente una noche para despedir a todos los amores del pasado? ¿A qué parte de nuestra memoria van a parar todas las personas a las que amamos? ¿En qué lugar de nuestro corazón se encuentran escondidas? Este libro es un museo. Un recorrido por los hombres que Cala amó, y los hombres que la amaron. Sus pasados se entrelazan en su mente o se presentan en su departamento, a lo largo de una misma noche. Se reúnen y le hablan. Le dicen que es tiempo de que los despida. Pero ¿dónde queda Fernando, su más grande amor, en esta historia? En esta noche que parece interminable, la narradora se lo pregunta y se lo responde. Todo antes del amanecer.",
-        },
+            "sinopsis": "¿Será suficiente una noche para despedir a todos los amores del pasado? ¿A qué parte de nuestra memoria van a parar todas las personas a las que amamos? ¿En qué lugar de nuestro corazón se encuentran escondidas? Este libro es un museo. Un recorrido por los hombres que Cala amó, y los hombres que la amaron. Sus pasados se entrelazan en su mente o se presentan en su departamento, a lo largo de una misma noche. Se reúnen y le hablan. Le dicen que es tiempo de que los despida. Pero ¿dónde queda Fernando, su más grande amor, en esta historia? En esta noche que parece interminable, la narradora se lo pregunta y se lo responde. Todo antes del amanecer."
+        }
     },
     {
         "id": 24,
@@ -524,16 +524,16 @@
         "quantity": 0,
         "category": {
             "name": "novela-de-terror",
-            "categoryId": 4,
+            "categoryId": 4
         },
         "details": {
-            "editorial": "NORMA GRUPO "editorial"",
+            "editorial": "NORMA GRUPO EDITORIAL",
             "paginas": 272,
             "peso": "0.3",
             "ISBN": "9789878070124",
             "idioma": "Español",
-            "sinopsis": "Tina es el tipo de niña que no molesta. Juega sola, con dos muñecas, y es muy silenciosa. Un verano llega a su pueblo una familia y se instala en una casa lindera. Nancy, su nueva vecina, es una adolescente que cree que entre los humanos hay otros seres, otras realidades. Para Tina, Nancy vive en otro planeta, uno hecho de discos, afiches y la lectura de su revista favorita: Mundo Loco. Lo que ambas descubrirán es que lo siniestro y lo monstruoso pueden encontrarse donde uno menos lo espera.",
-        },
+            "sinopsis": "Tina es el tipo de niña que no molesta. Juega sola, con dos muñecas, y es muy silenciosa. Un verano llega a su pueblo una familia y se instala en una casa lindera. Nancy, su nueva vecina, es una adolescente que cree que entre los humanos hay otros seres, otras realidades. Para Tina, Nancy vive en otro planeta, uno hecho de discos, afiches y la lectura de su revista favorita: Mundo Loco. Lo que ambas descubrirán es que lo siniestro y lo monstruoso pueden encontrarse donde uno menos lo espera."
+        }
     },
     {
         "id": 25,
@@ -546,16 +546,16 @@
         "quantity": 0,
         "category": {
             "name": "novela-de-terror",
-            "categoryId": 4,
+            "categoryId": 4
         },
         "details": {
-            "editorial": "NORMA GRUPO "editorial"",
+            "editorial": "NORMA GRUPO EDITORIAL",
             "paginas": 208,
             "peso": "0.3",
             "ISBN": "9789875459458",
             "idioma": "Español",
-            "sinopsis": "Tras sucesivas mudanzas, el joven Juan Aguirre logra vivir por fin en una casa propia, en el suburbio. Espera que este hogar definitivo les depare tanto a él como a su familia una vida más próspera y, sobre todo, más feliz. Sin embargo, las pesadillas que lo torturan desde niño lo han seguido hasta allí: sueños aterradores y visiones que parecen materializarse en crímenes. Como si fuera poco, Luciano, un nuevo compañero de escuela, le hará una increíble confesión Su enigmática presencia trastocará la vida de Juan y la de otros habitantes de Graymoor.",
-        },
+            "sinopsis": "Tras sucesivas mudanzas, el joven Juan Aguirre logra vivir por fin en una casa propia, en el suburbio. Espera que este hogar definitivo les depare tanto a él como a su familia una vida más próspera y, sobre todo, más feliz. Sin embargo, las pesadillas que lo torturan desde niño lo han seguido hasta allí: sueños aterradores y visiones que parecen materializarse en crímenes. Como si fuera poco, Luciano, un nuevo compañero de escuela, le hará una increíble confesión Su enigmática presencia trastocará la vida de Juan y la de otros habitantes de Graymoor."
+        }
     },
     {
         "id": 26,
@@ -568,7 +568,7 @@
         "quantity": 0,
         "category": {
             "name": "novela-de-terror",
-            "categoryId": 4,
+            "categoryId": 4
         },
         "details": {
             "editorial": "PUCK",
@@ -576,8 +576,8 @@
             "peso": "0.3",
             "ISBN": "9789874132680",
             "idioma": "Español",
-            "sinopsis": "Dylan ha escapado ilesa de un horrible accidente ferroviario. Pero, en realidad, no es así. El paisaje sombrío que la rodea no es Escocia. Es un páramo donde merodean espectros en busca de almas humanas. Y el extraño que está esperándola no es un chico común y corriente. Tristan es un barquero, cuya tarea consiste en transportar su alma al más allá, un viaje que ya ha hecho miles de veces. Pero esta vez hay algo diferente. Indecisa entre el amor y el destino, Dylan comprende que no puede separarse de Tristan, pero tampoco puede quedarse con él. Tarde o temprano, inevitablemente, los espectros capturarían su alma y ella se perdería para siempre. ¿Podrá el verdadero amor vencer los límites de la muerte? El barquero de almas es una historia que nos hace pensar, un relato verdaderamente original de un amor que se niega a dejarse limitar por la muerte.",
-        },
+            "sinopsis": "Dylan ha escapado ilesa de un horrible accidente ferroviario. Pero, en realidad, no es así. El paisaje sombrío que la rodea no es Escocia. Es un páramo donde merodean espectros en busca de almas humanas. Y el extraño que está esperándola no es un chico común y corriente. Tristan es un barquero, cuya tarea consiste en transportar su alma al más allá, un viaje que ya ha hecho miles de veces. Pero esta vez hay algo diferente. Indecisa entre el amor y el destino, Dylan comprende que no puede separarse de Tristan, pero tampoco puede quedarse con él. Tarde o temprano, inevitablemente, los espectros capturarían su alma y ella se perdería para siempre. ¿Podrá el verdadero amor vencer los límites de la muerte? El barquero de almas es una historia que nos hace pensar, un relato verdaderamente original de un amor que se niega a dejarse limitar por la muerte."
+        }
     },
     {
         "id": 27,
@@ -590,7 +590,7 @@
         "quantity": 0,
         "category": {
             "name": "novela-fantastica",
-            "categoryId": 5,
+            "categoryId": 5
         },
         "details": {
             "editorial": "PUCK",
@@ -598,8 +598,8 @@
             "peso": "0.3",
             "ISBN": "9789874132437",
             "idioma": "Español",
-            "sinopsis": "Por la autora del best seller La maldición del mar, llega una novela romántica inolvidable en la que se mezclan cuentos de hadas oscuros y relatos populares encantados cuando un chico, supuestamente desaparecido, resurge en un bosque mágico y se enamora de la bruja que está decidida a desentrañar sus secretos. Cuidado con los bosques oscuros y sombríos En especial, con el bosque que rodea el pueblo de Fir Haven. Algunos dicen que el bosque es mágico. Embrujado, incluso. Aunque todos dicen que es una bruja, solo Nora Walker sabe la verdad sobre su identidad. Ella y las Walker que la precedieron siempre han tenido una conexión especial con el bosque. Y es esa conexión especial la que lleva hasta Oliver Huntsman, el chico que desapareció algunas semanas atrás, durante la ventisca más violenta de los últimos años. Oliver tendría que estar muerto, pero sigue vivo, abandonado en el bosque sin recuerdo alguno del tiempo en el que estuvo desaparecido. Pero Nora, gracias a su conexión, percibe un cambio en el bosque; una intranquilidad ante la presencia de Oliver. Y de pronto, se da cuenta de que su única alternativa es descubrir la verdad de cómo fue que el chico por el que ha llegado a sentir un profundo cariño sobrevivió en el bosque durante la ventisca y, lo que es aún más importante, qué lo había llevado allí. Sin embargo, lo que Nora no sabe es que Oliver también tiene secretos, y hará lo que sea por mantenerlos ocultos, porque resulta ser que él no fue el único que desapareció esa noche fatídica. Desde la creación del primer cuento de hadas, hemos aprendido que se debe temer lo que se oculta dentro de los bosques oscuros y sombríos, y en El bosque de las cosas perdidas, Shea Ernshaw nos muestra por qué.",
-        },
+            "sinopsis": "Por la autora del best seller La maldición del mar, llega una novela romántica inolvidable en la que se mezclan cuentos de hadas oscuros y relatos populares encantados cuando un chico, supuestamente desaparecido, resurge en un bosque mágico y se enamora de la bruja que está decidida a desentrañar sus secretos. Cuidado con los bosques oscuros y sombríos En especial, con el bosque que rodea el pueblo de Fir Haven. Algunos dicen que el bosque es mágico. Embrujado, incluso. Aunque todos dicen que es una bruja, solo Nora Walker sabe la verdad sobre su identidad. Ella y las Walker que la precedieron siempre han tenido una conexión especial con el bosque. Y es esa conexión especial la que lleva hasta Oliver Huntsman, el chico que desapareció algunas semanas atrás, durante la ventisca más violenta de los últimos años. Oliver tendría que estar muerto, pero sigue vivo, abandonado en el bosque sin recuerdo alguno del tiempo en el que estuvo desaparecido. Pero Nora, gracias a su conexión, percibe un cambio en el bosque; una intranquilidad ante la presencia de Oliver. Y de pronto, se da cuenta de que su única alternativa es descubrir la verdad de cómo fue que el chico por el que ha llegado a sentir un profundo cariño sobrevivió en el bosque durante la ventisca y, lo que es aún más importante, qué lo había llevado allí. Sin embargo, lo que Nora no sabe es que Oliver también tiene secretos, y hará lo que sea por mantenerlos ocultos, porque resulta ser que él no fue el único que desapareció esa noche fatídica. Desde la creación del primer cuento de hadas, hemos aprendido que se debe temer lo que se oculta dentro de los bosques oscuros y sombríos, y en El bosque de las cosas perdidas, Shea Ernshaw nos muestra por qué."
+        }
     },
     {
         "id": 28,
@@ -612,7 +612,7 @@
         "quantity": 0,
         "category": {
             "name": "novela-fantastica",
-            "categoryId": 5,
+            "categoryId": 5
         },
         "details": {
             "editorial": "GRANTRAVESIA",
@@ -620,8 +620,8 @@
             "peso": "0.3",
             "ISBN": "9788494658709",
             "idioma": "Español",
-            "sinopsis": "Debilitada y prisionera, privada de su potente rayo y atormentada por sus errores, Mare Barrow se ha postrado a los pies de un traidor. La otrora «Niña Relámpago» vive ahora a merced del joven que alguna vez amó, Maven Calore, espurio rey de Norta, quien continúa su malévola campaña de expansión y genocidio. Pero más allá de las murallas palaciegas, la rebelión Roja crece y se multiplica; y el joven príncipe Cal, legítimo heredero del trono, hará todo lo posible por rescatar a su amada. Sangre roja y plateada correrá por pasillos y plazas. ¡Que resuenen poderosos los tambores de guerra!",
-        },
+            "sinopsis": "Debilitada y prisionera, privada de su potente rayo y atormentada por sus errores, Mare Barrow se ha postrado a los pies de un traidor. La otrora «Niña Relámpago» vive ahora a merced del joven que alguna vez amó, Maven Calore, espurio rey de Norta, quien continúa su malévola campaña de expansión y genocidio. Pero más allá de las murallas palaciegas, la rebelión Roja crece y se multiplica; y el joven príncipe Cal, legítimo heredero del trono, hará todo lo posible por rescatar a su amada. Sangre roja y plateada correrá por pasillos y plazas. ¡Que resuenen poderosos los tambores de guerra!"
+        }
     },
     {
         "id": 29,
@@ -634,7 +634,7 @@
         "quantity": 0,
         "category": {
             "name": "novela-fantastica",
-            "categoryId": 5,
+            "categoryId": 5
         },
         "details": {
             "editorial": "OCEANO GRAN TRAVESIA",
@@ -642,8 +642,8 @@
             "peso": "0.3",
             "ISBN": "9788494799778",
             "idioma": "Español",
-            "sinopsis": "Mare Barrow aprendió que toda victoria tiene un precio cuando fue traicionada por Cal. Ahora, decidida a proteger su corazón y a asegurar la libertad de los Rojos y los nuevasangre como ella, Mare resuelve derrocar el reino de Norta de una vez por todas comenzando con su nuevo monarca: el rey Maven. Pero ninguna corona se conquista sola y antes de que los Rojos se levanten, Mare debe unirse al muchacho que le rompió el corazón para poder vencer al que casi acaba con ella. La guerra está a punto de estallar, y aquello por lo que Mare ha dado su vida se encuentra en juego. ¿Será suficiente lograr la victoria para destronar a los reinos Plateados o se acallará a la Niña Relámpago para siempre? En esta épica culminación de la serie La reina Roja, Mare deberá aceptar su destino y convocar su poder ya que todos serán puestos a prueba, pero no todos sobrevivirán.",
-        },
+            "sinopsis": "Mare Barrow aprendió que toda victoria tiene un precio cuando fue traicionada por Cal. Ahora, decidida a proteger su corazón y a asegurar la libertad de los Rojos y los nuevasangre como ella, Mare resuelve derrocar el reino de Norta de una vez por todas comenzando con su nuevo monarca: el rey Maven. Pero ninguna corona se conquista sola y antes de que los Rojos se levanten, Mare debe unirse al muchacho que le rompió el corazón para poder vencer al que casi acaba con ella. La guerra está a punto de estallar, y aquello por lo que Mare ha dado su vida se encuentra en juego. ¿Será suficiente lograr la victoria para destronar a los reinos Plateados o se acallará a la Niña Relámpago para siempre? En esta épica culminación de la serie La reina Roja, Mare deberá aceptar su destino y convocar su poder ya que todos serán puestos a prueba, pero no todos sobrevivirán."
+        }
     },
     {
         "id": 30,
@@ -656,7 +656,7 @@
         "quantity": 0,
         "category": {
             "name": "novela-fantastica",
-            "categoryId": 5,
+            "categoryId": 5
         },
         "details": {
             "editorial": "PUCK",
@@ -664,8 +664,8 @@
             "peso": "0.3",
             "ISBN": "9789874132543",
             "idioma": "Español",
-            "sinopsis": "Un corazón al que proteger. Una deuda que saldar. Un juego en el que vencer. Tras verse arrastrada al mundo mágico de Caraval, Donatella Dragna por fin ha escapado de su padre y librado a su hermana Scarlett de un funesto matrimonio concertado. Las chicas deberían estar celebrándolo, pero Tella sigue sin poder disfrutar de la libertad. Desesperada, hizo un trato con un misterioso criminal, y ahora le debe algo que nadie ha logrado averiguar hasta el momento: el verdadero nombre del Maestro Legend. Su única posibilidad de descubrir la identidad de Legend es alzarse con la victoria en Caraval, así que Tella se embarcará una vez más en la competición. Caraval siempre ha exigido valentía, sacrificio y astucia, pero ahora el juego requiere algo más. Si Tella no logra cumplir su parte del trato y revelar el nombre de Legend, lo perderá todo. Puede que incluso la vida. Pero si gana, Legend y Caraval serán destruidos para siempre. EL JUEGO ACABA DE EMPEZAR",
-        },
+            "sinopsis": "Un corazón al que proteger. Una deuda que saldar. Un juego en el que vencer. Tras verse arrastrada al mundo mágico de Caraval, Donatella Dragna por fin ha escapado de su padre y librado a su hermana Scarlett de un funesto matrimonio concertado. Las chicas deberían estar celebrándolo, pero Tella sigue sin poder disfrutar de la libertad. Desesperada, hizo un trato con un misterioso criminal, y ahora le debe algo que nadie ha logrado averiguar hasta el momento: el verdadero nombre del Maestro Legend. Su única posibilidad de descubrir la identidad de Legend es alzarse con la victoria en Caraval, así que Tella se embarcará una vez más en la competición. Caraval siempre ha exigido valentía, sacrificio y astucia, pero ahora el juego requiere algo más. Si Tella no logra cumplir su parte del trato y revelar el nombre de Legend, lo perderá todo. Puede que incluso la vida. Pero si gana, Legend y Caraval serán destruidos para siempre. EL JUEGO ACABA DE EMPEZAR"
+        }
     },
     {
         "id": 31,
@@ -678,7 +678,7 @@
         "quantity": 0,
         "category": {
             "name": "novela-fantastica",
-            "categoryId": 5,
+            "categoryId": 5
         },
         "details": {
             "editorial": "SALAMANDRA",
@@ -686,8 +686,8 @@
             "peso": "0.3",
             "ISBN": "9789878000404",
             "idioma": "Español",
-            "sinopsis": "Harry Potter se ha quedado huérfano y vive en casa de sus abominables tíos y el insoportable primo Dudley. Harry se siente muy triste y solo, hasta que un buen día recibe una carta que cambiará su vida para siempre. En ella le comunican que ha sido aceptado como alumno en el Colegio Hogwarts de Magia. A partir de ese momento, la suerte de Harry da un vuelco espectacular. En esa escuela tan especial aprenderá encantamientos, trucos fabulosos y tácticas de defensa contra las malas artes. Se convertirá en el campeón escolar de Quidditch, especie de fútbol aéreo que se juega montado sobre escobas, y hará un puñado de buenos amigos... aunque también algunos temibles enemigos. Pero, sobre todo, conocerá los secretos que le permitirán cumplir su destino. Pues, aunque no lo parezca a primera vista, Harry no es un chico común y corriente: ¡es un verdadero mago!",
-        },
+            "sinopsis": "Harry Potter se ha quedado huérfano y vive en casa de sus abominables tíos y el insoportable primo Dudley. Harry se siente muy triste y solo, hasta que un buen día recibe una carta que cambiará su vida para siempre. En ella le comunican que ha sido aceptado como alumno en el Colegio Hogwarts de Magia. A partir de ese momento, la suerte de Harry da un vuelco espectacular. En esa escuela tan especial aprenderá encantamientos, trucos fabulosos y tácticas de defensa contra las malas artes. Se convertirá en el campeón escolar de Quidditch, especie de fútbol aéreo que se juega montado sobre escobas, y hará un puñado de buenos amigos... aunque también algunos temibles enemigos. Pero, sobre todo, conocerá los secretos que le permitirán cumplir su destino. Pues, aunque no lo parezca a primera vista, Harry no es un chico común y corriente: ¡es un verdadero mago!"
+        }
     },
     {
         "id": 32,
@@ -700,7 +700,7 @@
         "quantity": 0,
         "category": {
             "name": "novela-fantastica",
-            "categoryId": 5,
+            "categoryId": 5
         },
         "details": {
             "editorial": "SALAMANDRA",
@@ -708,8 +708,8 @@
             "peso": "0.3",
             "ISBN": "9789878000442",
             "idioma": "Español",
-            "sinopsis": "Mientras Harry espera impaciente en casa de sus insoportables tíos el inicio del segundo curso del Colegio Hogwarts de Magia y Hechicería, un elfo aparece en su habitación y le advierte de que una amenaza mortal se cierne sobre la escuela. Harry no se lo piensa dos veces y, acompañado de Ron, se dirige a Hogwarts en un coche volador. Pero, ¿puede un aprendiz de mago defender la escuela de los malvados que pretenden destruirla? Sin saber que alguien ha abierto la Cámara de los Secretos, dejando escapar una serie de monstruos peligrosos, Harry y sus amigos Ron y Hermione tendrán que enfrentarse con arañas gigantes, serpientes encantadas, fantasmas enfurecidos y, sobre todo, con la mismísima reencarnación de su más temible adversario.",
-        },
+            "sinopsis": "Mientras Harry espera impaciente en casa de sus insoportables tíos el inicio del segundo curso del Colegio Hogwarts de Magia y Hechicería, un elfo aparece en su habitación y le advierte de que una amenaza mortal se cierne sobre la escuela. Harry no se lo piensa dos veces y, acompañado de Ron, se dirige a Hogwarts en un coche volador. Pero, ¿puede un aprendiz de mago defender la escuela de los malvados que pretenden destruirla? Sin saber que alguien ha abierto la Cámara de los Secretos, dejando escapar una serie de monstruos peligrosos, Harry y sus amigos Ron y Hermione tendrán que enfrentarse con arañas gigantes, serpientes encantadas, fantasmas enfurecidos y, sobre todo, con la mismísima reencarnación de su más temible adversario."
+        }
     },
     {
         "id": 33,
@@ -722,7 +722,7 @@
         "quantity": 0,
         "category": {
             "name": "novela-fantastica",
-            "categoryId": 5,
+            "categoryId": 5
         },
         "details": {
             "editorial": "SALAMANDRA",
@@ -730,8 +730,8 @@
             "peso": "0.3",
             "ISBN": "9789878000176",
             "idioma": "Español",
-            "sinopsis": "Harry aguarda con impaciencia el inicio del tercer curso en el Colegio Hogwarts de Magia y Hechicería. Tras haber cumplido trece años, solo y lejos de sus amigos de Hogwarts, Harry se pelea con su bigotuda tía Marge, a la que convierte en globo, y debe huir en un autobús mágico. Mientras tanto, de la prisión de Azkaban se ha escapado un terrible villano, Sirius Black, un asesino en serie con poderes mágicos que fue cómplice de lord Voldemort y que parece dispuesto a eliminar a Harry del mapa. Y por si esto fuera poco, Harry debe enfrentarse también a unos terribles monstruos, los dementores, seres abominables capaces de robarles la felicidad a los magos y de borrar todo recuerdo hermoso de aquellos que osan mirarlos. Lo que ninguno de estos malvados personajes sabe es que Harry, con la ayuda de sus fieles amigos Ron y Hermione, es capaz de todo y mucho más.",
-        },
+            "sinopsis": "Harry aguarda con impaciencia el inicio del tercer curso en el Colegio Hogwarts de Magia y Hechicería. Tras haber cumplido trece años, solo y lejos de sus amigos de Hogwarts, Harry se pelea con su bigotuda tía Marge, a la que convierte en globo, y debe huir en un autobús mágico. Mientras tanto, de la prisión de Azkaban se ha escapado un terrible villano, Sirius Black, un asesino en serie con poderes mágicos que fue cómplice de lord Voldemort y que parece dispuesto a eliminar a Harry del mapa. Y por si esto fuera poco, Harry debe enfrentarse también a unos terribles monstruos, los dementores, seres abominables capaces de robarles la felicidad a los magos y de borrar todo recuerdo hermoso de aquellos que osan mirarlos. Lo que ninguno de estos malvados personajes sabe es que Harry, con la ayuda de sus fieles amigos Ron y Hermione, es capaz de todo y mucho más."
+        }
     },
     {
         "id": 34,
@@ -744,7 +744,7 @@
         "quantity": 0,
         "category": {
             "name": "novela-fantastica",
-            "categoryId": 5,
+            "categoryId": 5
         },
         "details": {
             "editorial": "SALAMANDRA",
@@ -752,8 +752,8 @@
             "peso": "0.3",
             "ISBN": "9789878000213",
             "idioma": "Español",
-            "sinopsis": "Tras otro abominable verano con los Dursley, Harry se dispone a iniciar el cuarto curso en Hogwarts, la famosa escuela de magia y hechicería. A sus catorce años, a Harry le gustaría ser un joven mago como los demás y dedicarse a aprender nuevos sortilegios, encontrarse con sus amigos Ron y Hermione y asistir con ellos a los Mundiales de quidditch. Sin embargo, al llegar al colegio le espera una gran sorpresa que lo obligará a enfrentarse a los desafíos más temibles de toda su vida. Si logra superarlos, habrá demostrado que ya no es un niño y que está preparado para vivir las nuevas y emocionantes experiencias que el futuro le depara.",
-        },
+            "sinopsis": "Tras otro abominable verano con los Dursley, Harry se dispone a iniciar el cuarto curso en Hogwarts, la famosa escuela de magia y hechicería. A sus catorce años, a Harry le gustaría ser un joven mago como los demás y dedicarse a aprender nuevos sortilegios, encontrarse con sus amigos Ron y Hermione y asistir con ellos a los Mundiales de quidditch. Sin embargo, al llegar al colegio le espera una gran sorpresa que lo obligará a enfrentarse a los desafíos más temibles de toda su vida. Si logra superarlos, habrá demostrado que ya no es un niño y que está preparado para vivir las nuevas y emocionantes experiencias que el futuro le depara."
+        }
     },
     {
         "id": 35,
@@ -766,7 +766,7 @@
         "quantity": 0,
         "category": {
             "name": "novela-fantastica",
-            "categoryId": 5,
+            "categoryId": 5
         },
         "details": {
             "editorial": "SALAMANDRA",
@@ -774,8 +774,8 @@
             "peso": "0.3",
             "ISBN": "9789878000459",
             "idioma": "Español",
-            "sinopsis": "Las tediosas vacaciones de verano en casa de sus tíos todavía no han acabado y Harry se encuentra más inquieto que nunca. Apenas ha tenido noticias de Ron y Hermione, y presiente que algo extraño está sucediendo en Hogwarts. En efecto, cuando por fin comienza otro curso en el famoso colegio de magia y hechicería, sus temores se vuelven realidad. El Ministerio de Magia niega que Voldemort haya regresado y ha iniciado una campaña de desprestigio contra Harry y Dumbledore, para lo cual ha asignado a la horrible profesora Dolores Umbridge la tarea de vigilar todos sus movimientos. Así pues, además de sentirse solo e incomprendido, Harry sospecha que Voldemort puede adivinar sus pensamientos, e intuye que el temible mago trata de apoderarse de un objeto secreto que le permitiría recuperar su poder destructivo.",
-        },
+            "sinopsis": "Las tediosas vacaciones de verano en casa de sus tíos todavía no han acabado y Harry se encuentra más inquieto que nunca. Apenas ha tenido noticias de Ron y Hermione, y presiente que algo extraño está sucediendo en Hogwarts. En efecto, cuando por fin comienza otro curso en el famoso colegio de magia y hechicería, sus temores se vuelven realidad. El Ministerio de Magia niega que Voldemort haya regresado y ha iniciado una campaña de desprestigio contra Harry y Dumbledore, para lo cual ha asignado a la horrible profesora Dolores Umbridge la tarea de vigilar todos sus movimientos. Así pues, además de sentirse solo e incomprendido, Harry sospecha que Voldemort puede adivinar sus pensamientos, e intuye que el temible mago trata de apoderarse de un objeto secreto que le permitiría recuperar su poder destructivo."
+        }
     },
     {
         "id": 36,
@@ -788,7 +788,7 @@
         "quantity": 0,
         "category": {
             "name": "novela-fantastica",
-            "categoryId": 5,
+            "categoryId": 5
         },
         "details": {
             "editorial": "SALAMANDRA",
@@ -796,8 +796,8 @@
             "peso": "0.3",
             "ISBN": "9789878000411",
             "idioma": "Español",
-            "sinopsis": "Con dieciséis años cumplidos, Harry inicia el sexto curso en Hogwarts en medio de terribles acontecimientos que asolan Inglaterra. Elegido capitán del equipo de quidditch, los ensayos, los exámenes y las chicas ocupan todo su tiempo, pero la tranquilidad dura poco. A pesar de los férreos controles de seguridad que protegen la escuela, dos alumnos son brutalmente atacados. Dumbledore sabe que se acerca el momento, anunciado por la Profecía, en que Harry y Voldemort se enfrentarán a muerte: «El único con poder para vencer al Señor Tenebroso se acerca... Uno de los dos debe morir a manos del otro, pues ninguno de los dos podrá vivir mientras siga el otro con vida.» El anciano director solicitará la ayuda de Harry y juntos emprenderán peligrosos viajes para intentar debilitar al enemigo, para lo cual el joven mago contará con un viejo libro de pociones perteneciente a un misterioso personaje, alguien que se hace llamar Príncipe Mestizo.",
-        },
+            "sinopsis": "Con dieciséis años cumplidos, Harry inicia el sexto curso en Hogwarts en medio de terribles acontecimientos que asolan Inglaterra. Elegido capitán del equipo de quidditch, los ensayos, los exámenes y las chicas ocupan todo su tiempo, pero la tranquilidad dura poco. A pesar de los férreos controles de seguridad que protegen la escuela, dos alumnos son brutalmente atacados. Dumbledore sabe que se acerca el momento, anunciado por la Profecía, en que Harry y Voldemort se enfrentarán a muerte: «El único con poder para vencer al Señor Tenebroso se acerca... Uno de los dos debe morir a manos del otro, pues ninguno de los dos podrá vivir mientras siga el otro con vida.» El anciano director solicitará la ayuda de Harry y juntos emprenderán peligrosos viajes para intentar debilitar al enemigo, para lo cual el joven mago contará con un viejo libro de pociones perteneciente a un misterioso personaje, alguien que se hace llamar Príncipe Mestizo."
+        }
     },
     {
         "id": 37,
@@ -810,7 +810,7 @@
         "quantity": 0,
         "category": {
             "name": "novela-fantastica",
-            "categoryId": 5,
+            "categoryId": 5
         },
         "details": {
             "editorial": "SALAMANDRA",
@@ -818,7 +818,7 @@
             "peso": "0.3",
             "ISBN": "9789878000190",
             "idioma": "Español",
-            "sinopsis": "La fecha crucial se acerca. Cuando cumpla los diecisiete, Harry perderá el encantamiento protector que lo mantiene a salvo. El anunciado combate a muerte con Voldemort es inminente, y la casi imposible misión de encontrar y destruir los Horrocruxes restantes es más urgente que nunca. Ha llegado el momento de tomar las decisiones más difíciles. Harry debe abandonar la calidez y seguridad de La Madriguera para emprender sin miedo ni vacilaciones el inexorable sendero trazado para él. Consciente de lo mucho que está en juego, solo dentro de sí mismo encontrará la fuerza que lo impulsará en la vertiginosa carrera hacia un destino desconocido.",
-        },
-    },
+            "sinopsis": "La fecha crucial se acerca. Cuando cumpla los diecisiete, Harry perderá el encantamiento protector que lo mantiene a salvo. El anunciado combate a muerte con Voldemort es inminente, y la casi imposible misión de encontrar y destruir los Horrocruxes restantes es más urgente que nunca. Ha llegado el momento de tomar las decisiones más difíciles. Harry debe abandonar la calidez y seguridad de La Madriguera para emprender sin miedo ni vacilaciones el inexorable sendero trazado para él. Consciente de lo mucho que está en juego, solo dentro de sí mismo encontrará la fuerza que lo impulsará en la vertiginosa carrera hacia un destino desconocido."
+        }
+    }
 ]

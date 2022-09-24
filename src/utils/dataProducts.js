@@ -14,7 +14,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'PUCK',
-            páginas: 346,
+            paginas: 346,
             peso: '0.3',
             ISBN: '978-987413201-7',
             idioma: 'Español',
@@ -36,7 +36,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'VR YA',
-            páginas: 296,
+            paginas: 296,
             peso: '0.3',
             ISBN: '9789877475050',
             idioma: 'Español',
@@ -59,7 +59,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'LOQUELEO / SANTILLANA',
-            páginas: 152,
+            paginas: 152,
             peso: '0.3',
             ISBN: '9789504662075',
             idioma: 'Español',
@@ -82,7 +82,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'MONTENA',
-            páginas: 336,
+            paginas: 336,
             peso: '0.3',
             ISBN: '9789874924810',
             idioma: 'Español',
@@ -105,7 +105,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'MONTENA',
-            páginas: 384,
+            paginas: 384,
             peso: '0.3',
             ISBN: '9789874924896',
             idioma: 'Español',
@@ -128,7 +128,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'VR YA',
-            páginas: 454,
+            paginas: 454,
             peso: '0.3',
             ISBN: '9789877474978',
             idioma: 'Español',
@@ -151,7 +151,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'PLANETA',
-            páginas: 360,
+            paginas: 360,
             peso: '0.3',
             ISBN: '9789504974437',
             idioma: 'Español',
@@ -174,7 +174,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'VR YA',
-            páginas: 464,
+            paginas: 464,
             peso: '0.3',
             ISBN: '9789877476866',
             idioma: 'Español',
@@ -197,7 +197,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'RBA',
-            páginas: 314,
+            paginas: 314,
             peso: '0.3',
             ISBN: '9789874578006',
             idioma: 'Español',
@@ -220,7 +220,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'RBA',
-            páginas: 474,
+            paginas: 474,
             peso: "0.3",
             ISBN: "9788492955282",
             idioma: 'Español',
@@ -242,7 +242,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'PUCK',
-            páginas: 480,
+            paginas: 480,
             peso: "0.3",
             ISBN: "9789874132826",
             idioma: 'Español',
@@ -264,7 +264,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'GRANTRAVESIA',
-            páginas: 400,
+            paginas: 400,
             peso: "0.3",
             ISBN: "9788412199031",
             idioma: 'Español',
@@ -286,7 +286,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'BLOK',
-            páginas: 320,
+            paginas: 320,
             peso: "0.3",
             ISBN: "9789876275156",
             idioma: 'Español',
@@ -308,7 +308,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'RBA',
-            páginas: 528,
+            paginas: 528,
             peso: "0.3",
             ISBN: "9789874404336",
             idioma: 'Español',
@@ -330,7 +330,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'NUBE DE TINTA',
-            páginas: 288,
+            paginas: 288,
             peso: "0.3",
             ISBN: "9789871997572",
             idioma: 'Español',
@@ -352,7 +352,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'MONTENA',
-            páginas: 496,
+            paginas: 496,
             peso: "0.3",
             ISBN: "9789874924971",
             idioma: 'Español',
@@ -374,7 +374,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'MONTENA',
-            páginas: 360,
+            paginas: 360,
             peso: "0.3",
             ISBN: "9789874924995",
             idioma: 'Español',
@@ -396,7 +396,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'MONTENA',
-            páginas: 160,
+            paginas: 160,
             peso: "0.3",
             ISBN: "9789878940069",
             idioma: 'Español',
@@ -418,7 +418,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'ALFAGUARA JUVENIL',
-            páginas: 560,
+            paginas: 560,
             peso: "0.3",
             ISBN: "9789877382983",
             idioma: 'Español',
@@ -440,7 +440,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'MONTENA',
-            páginas: 416,
+            paginas: 416,
             peso: "0.3",
             ISBN: "9789874924711",
             idioma: 'Español',
@@ -462,7 +462,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'VR YA',
-            páginas: 520,
+            paginas: 520,
             peso: "0.3",
             ISBN: "9789877477504",
             idioma: 'Español',
@@ -484,7 +484,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'NUBE DE TINTA',
-            páginas: 352,
+            paginas: 352,
             peso: "0.3",
             ISBN: "9789871997480",
             idioma: 'Español',
@@ -506,7 +506,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'PLANETA',
-            páginas: 216,
+            paginas: 216,
             peso: "0.3",
             ISBN: "9789504976516",
             idioma: 'Español',
@@ -528,7 +528,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'NORMA GRUPO EDITORIAL',
-            páginas: 272,
+            paginas: 272,
             peso: "0.3",
             ISBN: "9789878070124",
             idioma: 'Español',
@@ -550,7 +550,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'NORMA GRUPO EDITORIAL',
-            páginas: 208,
+            paginas: 208,
             peso: "0.3",
             ISBN: "9789875459458",
             idioma: 'Español',
@@ -572,7 +572,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'PUCK',
-            páginas: 320,
+            paginas: 320,
             peso: "0.3",
             ISBN: "9789874132680",
             idioma: 'Español',
@@ -594,7 +594,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'PUCK',
-            páginas: 320,
+            paginas: 320,
             peso: "0.3",
             ISBN: "9789874132437",
             idioma: 'Español',
@@ -616,7 +616,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'GRANTRAVESIA',
-            páginas: 594,
+            paginas: 594,
             peso: "0.3",
             ISBN: "9788494658709",
             idioma: 'Español',
@@ -638,7 +638,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'OCEANO GRAN TRAVESIA',
-            páginas: 772,
+            paginas: 772,
             peso: "0.3",
             ISBN: "9788494799778",
             idioma: 'Español',
@@ -660,7 +660,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'PUCK',
-            páginas: 480,
+            paginas: 480,
             peso: "0.3",
             ISBN: "9789874132543",
             idioma: 'Español',
@@ -682,7 +682,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'SALAMANDRA',
-            páginas: 288,
+            paginas: 288,
             peso: "0.3",
             ISBN: "9789878000404",
             idioma: 'Español',
@@ -704,7 +704,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'SALAMANDRA',
-            páginas: 320,
+            paginas: 320,
             peso: "0.3",
             ISBN: "9789878000442",
             idioma: 'Español',
@@ -726,7 +726,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'SALAMANDRA',
-            páginas: 384,
+            paginas: 384,
             peso: "0.3",
             ISBN: "9789878000176",
             idioma: 'Español',
@@ -748,7 +748,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'SALAMANDRA',
-            páginas: 672,
+            paginas: 672,
             peso: "0.3",
             ISBN: "9789878000213",
             idioma: 'Español',
@@ -770,7 +770,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'SALAMANDRA',
-            páginas: 928,
+            paginas: 928,
             peso: "0.3",
             ISBN: "9789878000459",
             idioma: 'Español',
@@ -792,7 +792,7 @@ const dataFromBD = [
         },
         details: {
             editorial: 'SALAMANDRA',
-            páginas: 576,
+            paginas: 576,
             peso: "0.3",
             ISBN: "9789878000411",
             idioma: 'Español',
@@ -814,34 +814,13 @@ const dataFromBD = [
         },
         details: {
             editorial: 'SALAMANDRA',
-            páginas: 704,
+            paginas: 704,
             peso: "0.3",
             ISBN: "9789878000190",
             idioma: 'Español',
             sinopsis: 'La fecha crucial se acerca. Cuando cumpla los diecisiete, Harry perderá el encantamiento protector que lo mantiene a salvo. El anunciado combate a muerte con Voldemort es inminente, y la casi imposible misión de encontrar y destruir los Horrocruxes restantes es más urgente que nunca. Ha llegado el momento de tomar las decisiones más difíciles. Harry debe abandonar la calidez y seguridad de La Madriguera para emprender sin miedo ni vacilaciones el inexorable sendero trazado para él. Consciente de lo mucho que está en juego, solo dentro de sí mismo encontrará la fuerza que lo impulsará en la vertiginosa carrera hacia un destino desconocido.',
         },
     },
-/*     {
-        id: 38,
-        stock: ,
-        title: '',
-        author: '',
-        price: ,
-        img: '',
-        sales: 0, quantity: 0,
-        category: {
-            name: 'novela-fantastica',
-            categoryId: 5,
-        },
-        details: {
-            editorial: '',
-            páginas: ,
-            peso: "0.3",
-            ISBN: "",
-            idioma: 'Español',
-            sinopsis: '',
-        },
-    }, */
 ];
 
 export default dataFromBD;
