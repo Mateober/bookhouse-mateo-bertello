@@ -13,12 +13,16 @@ const CartProvider = ({ children }) => {
 
     const addProduct = (item, quantity) => {
         if (isInCart(item.id)) {
-            if (hayCantidad(item.stock)) {
-                setCart(
-                    cart.map((product) => {
-                        return product.id === item.id ? { ...product, quantity: product.quantity + quantity } : product;
-                    })
-                );
+            if (hayCantidad2(item.stock, quantity)) {
+                if (hayCantidad(item.stock)) {
+                    setCart(
+                        cart.map((product) => {
+                            return product.id === item.id ? { ...product, quantity: product.quantity + quantity } : product;
+                        })
+                    );
+                } else {
+                    alert('No hay stock');
+                }
             } else {
                 alert('No hay stock');
             }
@@ -41,6 +45,8 @@ const CartProvider = ({ children }) => {
             );
         }
     };
+
+    const hayCantidad2 = (stock, counter) => (cart.find((product) => stock - product.quantity >= counter) ? true : false);
 
     const hayCantidad = (stock) => (cart.find((product) => product.quantity < stock) ? true : false);
 
