@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useCartContext } from '../../context/CartContext';
 import ItemCarrito from './ItemCarrito';
+import scrollTopOnClick from '../../utils/scrollTopOnClick';
 
 function Carrito({ claseCart, clickCerrarCart }) {
     const { cart, totalPrice } = useCartContext();
@@ -35,7 +36,7 @@ function Carrito({ claseCart, clickCerrarCart }) {
                     <div className="total-price">${totalPrice()}</div>
                 </div>
                 <Link onClick={clickCerrarCart} to="/cart">
-                    <button type="button" className="btn-buy-cart">
+                    <button onClick={scrollTopOnClick} type="button" className="btn-buy-cart">
                         Finalizar Compra
                     </button>
                 </Link>

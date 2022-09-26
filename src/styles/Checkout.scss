@@ -173,6 +173,10 @@
     }
 }
 
+.boton__enviar {
+    margin-bottom: 20px;
+}
+
 @media (max-width: 800px) {
     .checkout__title {
         flex-direction: column;
@@ -209,5 +213,13 @@
     .checkout__volver {
         font-size: 12px;
         margin-top: 10px;
+    }
+
+    .contacto__container--form {
+        form {
+            h2 {
+                font-size: 20px;
+            }
+        }
     }
 }

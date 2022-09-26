@@ -2,6 +2,7 @@ import React from 'react';
 import { useCartContext } from '../../context/CartContext';
 import { Link } from 'react-router-dom';
 import ItemCart from './ItemCart';
+import scrollTopOnClick from '../../utils/scrollTopOnClick';
 
 const Cart = () => {
     const { cart, totalPrice } = useCartContext();
@@ -10,7 +11,7 @@ const Cart = () => {
         return (
             <>
                 <div className="cart__page0">
-                    <h2 className="cart__title">CARRITO DE COMPRAS</h2>
+                    <h2 className="cart__title--sin">CARRITO DE COMPRAS</h2>
                     <div className="sinProductoCarro">
                         <p>No hay productos en el carrito</p>
                         <Link to="/">
@@ -67,7 +68,7 @@ const Cart = () => {
                             </div>
                             <div className="buy__menu--6">
                                 <Link to="/checkout">
-                                    <button>INICIAR PAGO</button>
+                                    <button onClick={scrollTopOnClick}>INICIAR PAGO</button>
                                 </Link>
                             </div>
                         </div>
