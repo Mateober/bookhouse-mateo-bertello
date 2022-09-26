@@ -1,0 +1,213 @@
+.checkout__page {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.checkout__container--general {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.checkout__title {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+    h2 {
+        color: #1f2b43;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 5px;
+    }
+    span {
+        color: #1f2b43;
+        font-weight: 600;
+    }
+}
+
+.checkout__volver {
+    color: #b4b2b2;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    i {
+        padding-right: 10px;
+    }
+}
+
+.contacto__container--form {
+    width: 70%;
+    form {
+        .user-details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px 0 12px 0;
+            .input-box {
+                margin-bottom: 15px;
+                width: calc(100% / 2 - 20px);
+                p {
+                    margin-bottom: 5px;
+                    color: black;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                span {
+                    color: red;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                input,
+                select {
+                    height: 45px;
+                    width: 100%;
+                    padding-left: 15px;
+                    outline: none;
+                    border-radius: 5px;
+                    border: 1px solid #ccc;
+                    border-bottom-width: 2px;
+                    transition: all 0.3s ease;
+                    color: Black;
+                    font-size: 16px;
+                    font-weight: 400;
+                    &:focus {
+                        border-color: Black;
+                    }
+                }
+            }
+            .input-box2 {
+                width: 15%;
+            }
+            .input-box3 {
+                margin-left: 25px;
+            }
+        }
+        h2 {
+            color: #1f2b43;
+            font-size: 30px;
+            font-weight: 600;
+            padding-top: 20px;
+        }
+    }
+}
+
+.boton__enviar {
+    background-color: #1f2b43;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.boton__enviar:hover {
+    background-color: #5a5a5a;
+    transition: 0.2s;
+}
+.boton__enviar:active {
+    background-color: #0f1727;
+}
+
+.checkout__menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    width: 25%;
+    height: fit-content;
+    .container__checkout--menu {
+        width: 100%;
+    }
+    &--1 {
+        display: flex;
+        h2 {
+            color: #1f2b43;
+            font-size: 16px;
+            font-weight: 700;
+            margin: 20px 20px 0 20px;
+            border-bottom: 1px #1f2b43 solid;
+        }
+    }
+
+    &--3 {
+        display: flex;
+        color: #1f2b43;
+        font-weight: 600;
+        font-size: 14px;
+        border-bottom: 1px solid #cecaca;
+        margin: 20px;
+        justify-content: space-between;
+    }
+    &--4 {
+        display: flex;
+        color: #1f2b43;
+        font-weight: 600;
+        font-size: 20px;
+        justify-content: space-between;
+        padding: 0 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .checkout__container--general {
+        flex-direction: column;
+    }
+
+    .checkout__title {
+        width: 100%;
+    }
+    .contacto__container--form {
+        width: 100%;
+        form {
+            .user-details {
+                .input-box3 {
+                    margin-left: 33px;
+                }
+            }
+        }
+    }
+
+    .checkout__menu {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .checkout__title {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contacto__container--form {
+        form {
+            .user-details {
+                .input-box {
+                    width: 100%;
+                }
+                .input-box2 {
+                    width: calc(100% / 3 - 5px);
+                }
+                .input-box3 {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .checkout__page {
+        padding-top: 60px;
+    }
+    .checkout__title {
+        width: 100%;
+        h2 {
+            font-size: 20px;
+            margin-top: 0;
+        }
+    }
+    .checkout__volver {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,24 @@
+.itemcheckout__container {
+    padding: 0 20px;
+    display: flex;
+    padding-top: 10px;
+    &--img {
+        width: 90px;
+        padding-right: 10px;
+        img {
+            width: 80px;
+        }
+    }
+    &--info {
+        display: flex;
+        flex-direction: column;
+        color: #1f2b43;
+        font-size: 16px;
+        .itemcheckout__title {
+            font-weight: 600;
+        }
+        .itemcheckout__cantidad, .itemcheckout__price {
+            font-weight: 500;
+        }
+    }
+}

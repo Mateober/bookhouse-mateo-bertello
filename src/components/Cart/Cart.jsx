@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import ItemCart from './ItemCart';
 
 const Cart = () => {
-    const { cart, totalPrice, clearCart } = useCartContext();
+    const { cart, totalPrice } = useCartContext();
 
     if (cart.length === 0) {
         return (
@@ -24,7 +24,14 @@ const Cart = () => {
     return (
         <>
             <div className="cart__page0">
-                <h2 className="cart__title">CARRITO DE COMPRAS</h2>
+                <div className="cart__title">
+                    <Link to="/">
+                        <p className="cart__volver">
+                            <i className="fa-solid fa-arrow-left"></i>Volver al catalogo
+                        </p>
+                    </Link>
+                    <h2 className="cart__title">CARRITO DE COMPRAS</h2>
+                </div>
                 <div className="cart__page">
                     <div className="cart__table">
                         <div className="cart__table--header">
@@ -59,7 +66,9 @@ const Cart = () => {
                                 <p>${totalPrice()}</p>
                             </div>
                             <div className="buy__menu--6">
-                                <button onClick={clearCart}>INICIAR PAGO</button>
+                                <Link to="/checkout">
+                                    <button>INICIAR PAGO</button>
+                                </Link>
                             </div>
                         </div>
                     </div>

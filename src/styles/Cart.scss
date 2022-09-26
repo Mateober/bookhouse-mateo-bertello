@@ -1,8 +1,12 @@
+.cart__page0 {
+    margin: 0 auto;
+    width: 95%;
+}
+
 .cart__page {
     display: flex;
     flex-direction: row;
-    width: 95%;
-    margin: auto;
+    margin: 0 auto;
     justify-content: space-between;
 }
 
@@ -20,16 +24,29 @@
 }
 
 .cart__title {
-    color: #1f2b43;
-    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    h2 {
+        color: #1f2b43;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 5px;
+    }
+}
+
+.cart__volver {
+    color: #b4b2b2;
+    font-size: 15px;
     font-weight: 600;
-    margin-top: 20px;
-    padding-left: 30px;
+    cursor: pointer;
+    i {
+        padding-right: 10px;
+    }
 }
 
 .cart__table {
     width: 70%;
-
     &--header {
         display: flex;
         align-items: center;
@@ -194,6 +211,9 @@
         display: flex;
         justify-content: center;
         padding: 30px 20px;
+        a {
+            width: 100%;
+        }
         button {
             font-size: 16px;
             font-weight: 600;
@@ -210,18 +230,15 @@
 }
 
 @media (max-width: 1100px) {
-    .cart__title {
-        padding-left: 20px;
-    }
     .cart__page {
-        display: flex;
         flex-direction: column;
         width: 95%;
-        margin: auto;
-        justify-content: space-between;
     }
     .cart__table {
         width: 100%;
+        &--header {
+            margin-top: 10px;
+        }
     }
     .buy__menu {
         width: 100%;
@@ -231,8 +248,15 @@
 
 @media (max-width: 750px) {
     .cart__title {
-        font-size: 20px;
-        padding-left: 10px;
+        h2 {
+            font-size: 20px;
+            margin-top: 0;
+            width: 100%;
+        }
+    }
+    .cart__volver {
+        font-size: 12px;
+        margin-top: 10px;
     }
     .cart__table--header {
         .col2,
