@@ -5,6 +5,7 @@ import ItemCarrito from './ItemCarrito';
 import scrollTopOnClick from '../../utils/scrollTopOnClick';
 
 function Carrito({ claseCart, clickCerrarCart }) {
+    // CONTEXT CARRO
     const { cart, totalPrice } = useCartContext();
     if (cart.length === 0) {
         return (

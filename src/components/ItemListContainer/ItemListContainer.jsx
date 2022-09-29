@@ -4,11 +4,17 @@ import { useParams } from 'react-router-dom';
 import { collection, getDocs, query, where, getFirestore } from 'firebase/firestore';
 import Loading from '../Loading/Loading';
 
-export const ItemListContainer = () => {
+const ItemListContainer = () => {
+    // USESTATE DATA (ARRAY DE PRODUCTOS)
     const [data, setData] = useState([]);
+
+    // USEPARAMAS NOMBRE DE CATEGORIA
     const { nameCategory } = useParams();
+
+    // USESTATE LOADING
     const [isLoading, setIsLoading] = useState(true);
 
+    // TRAE LOS PRODUCTOS DE FIREBASE, LOS DIVIDE SEGUN LA CATEGORIA O LOS TRAE A TODOS
     useEffect(() => {
         setIsLoading(true);
         const querydb = getFirestore();

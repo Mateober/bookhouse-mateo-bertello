@@ -4,8 +4,10 @@ import scrollTopOnClick from '../../utils/scrollTopOnClick';
 import { useCartContext } from '../../context/CartContext';
 
 const Item = ({ title, author, price, img, id, category, item, stock }) => {
+    // CONTEXT CARRO
     const { addProduct } = useCartContext();
-    //! FALTA LIMITAR ONADD SEGUN EL STOCK
+
+    // FUNCION DEL BOTON COMPRAR, AGREGA PRODUCTO AL CARRO
     const onAdd = () => {
         addProduct(item, 1);
     };

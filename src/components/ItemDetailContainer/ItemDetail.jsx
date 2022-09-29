@@ -4,12 +4,18 @@ import { Link } from 'react-router-dom';
 import { useCartContext } from '../../context/CartContext';
 
 function ItemDetail({ item }) {
-    const [goToCart, setGoToCart] = useState(false);
+    // CONTEXT CARRO
     const { addProduct } = useCartContext();
+
+    // USESTATE BOTONES IR AL CARRO Y VOLVER
+    const [goToCart, setGoToCart] = useState(false);
+    
+    // FUNCION DEL BOTON COMPRAR, AGREGA PRODUCTO AL CARRO
     const onAdd = (quantity) => {
         addProduct(item, quantity);
         setGoToCart(true);
     };
+    
     return (
         <>
             <div className="description">

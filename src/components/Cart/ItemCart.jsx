@@ -2,8 +2,10 @@ import React from 'react';
 import { useCartContext } from '../../context/CartContext';
 
 const ItemCart = ({ product }) => {
+    // CONTEXT CARRO
     const { removeProduct, addProduct, deleteOne } = useCartContext();
 
+    // SUMAR CANTIDAD EN EL CARRO
     const sumarCantidad = () => {
         if (product.quantity < product.stock) {
             addProduct(product, 1);
@@ -11,11 +13,14 @@ const ItemCart = ({ product }) => {
             alert('No hay stock');
         }
     };
+
+    // RESTAR CANTIDAD EN EL CARRO
     const restarCantidad = () => {
         if (product.quantity > 1) {
             deleteOne(product, -1);
         }
     };
+
     return (
         <div className="cart__table--product">
             <div className="cart__1">

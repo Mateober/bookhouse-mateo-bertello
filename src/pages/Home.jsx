@@ -18,7 +18,7 @@ function Home() {
                         <Route path="/category/:nameCategory" element={<ItemListContainer />} />
                         <Route path="/item/:nameCategory/:idItem" element={<ItemDetailContainer />}></Route>
                         <Route path="/cart" element={<Cart />}></Route>
-                        <Route path="/checkout" element={<Checkout/>}></Route>
+                        <Route path="/cart/checkout" element={<Checkout/>}></Route>
                     </Routes>
                 </BrowserRouter>
             </CartProvider>

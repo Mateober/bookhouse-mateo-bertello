@@ -5,6 +5,7 @@ import ItemCart from './ItemCart';
 import scrollTopOnClick from '../../utils/scrollTopOnClick';
 
 const Cart = () => {
+    // CONTEXT CARRO
     const { cart, totalPrice } = useCartContext();
 
     if (cart.length === 0) {
@@ -67,7 +68,7 @@ const Cart = () => {
                                 <p>${totalPrice()}</p>
                             </div>
                             <div className="buy__menu--6">
-                                <Link to="/checkout">
+                                <Link to="/cart/checkout">
                                     <button onClick={scrollTopOnClick}>INICIAR PAGO</button>
                                 </Link>
                             </div>

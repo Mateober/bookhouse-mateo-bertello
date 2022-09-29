@@ -1,14 +1,21 @@
 import React, { useState } from 'react';
 
 function ItemCount({ stockItem, initial, onAdd, price }) {
+    // USESTATE CONTADOR
     let [counter, setCounter] = useState(initial);
+
+    // USESTATE STOCK
     let [stock, setStock] = useState(stockItem - 1);
+
+    // SUMAR CANTIDAD COUNTER Y RESTA EL STOCK
     const sumarClick = () => {
         if (counter < stockItem) {
             setCounter(counter + 1);
             setStock(stock - 1);
         }
     };
+
+    // RESTAR CANTIDAD COUNTER Y SUMA STOCK
     const restarClick = () => {
         if (counter > initial) {
             setCounter(counter - 1);

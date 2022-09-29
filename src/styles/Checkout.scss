@@ -100,6 +100,7 @@
     font-size: 20px;
     font-weight: 600;
     padding: 10px 20px;
+    cursor: pointer;
 }
 .boton__enviar:hover {
     background-color: #5a5a5a;
@@ -175,6 +176,20 @@
 
 .boton__enviar {
     margin-bottom: 20px;
+}
+
+.errorForm {
+    width: 100%;
+    background-color: rgb(184, 18, 18);
+    text-align: center;
+    margin-bottom: 12px;
+
+    p {
+        color: white;
+        font-size: 14px;
+        font-weight: 800;
+        padding: 2px 0;
+    }
 }
 
 @media (max-width: 800px) {

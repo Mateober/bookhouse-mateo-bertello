@@ -1,6 +1,6 @@
 import React from 'react';
 
-const itemCheckout = ({ product }) => {
+const ItemCheckout = ({ product }) => {
     return (
         <div className="itemcheckout__container">
             <div className="itemcheckout__container--img">
@@ -15,4 +15,4 @@ const itemCheckout = ({ product }) => {
     );
 };
 
-export default itemCheckout;
+export default ItemCheckout;

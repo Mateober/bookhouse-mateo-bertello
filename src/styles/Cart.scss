@@ -145,7 +145,7 @@
         }
     }
     .cart__3 {
-        width: 20%;
+        width: 21%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -255,7 +255,7 @@
 
     .cart__title {
         width: 95%;
-        margin: 0 auto
+        margin: 0 auto;
     }
 }
 
@@ -307,6 +307,9 @@
         }
         .cart__1 {
             width: 150px;
+        }
+        .cart__4 {
+            margin-left: 0;
         }
     }
 
