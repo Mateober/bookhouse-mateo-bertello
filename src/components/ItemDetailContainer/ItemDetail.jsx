@@ -9,18 +9,18 @@ function ItemDetail({ item }) {
 
     // USESTATE BOTONES IR AL CARRO Y VOLVER
     const [goToCart, setGoToCart] = useState(false);
-    
+
     // FUNCION DEL BOTON COMPRAR, AGREGA PRODUCTO AL CARRO
     const onAdd = (quantity) => {
         addProduct(item, quantity);
         setGoToCart(true);
     };
-    
+
     return (
         <>
             <div className="description">
                 <div className="description__img">
-                    <img src={item.img} alt="" />
+                    <img src={item.img} alt={'Imagen libro ' + item.title} />
                 </div>
                 <div className="description__details">
                     <div className="details__authorfav">
@@ -40,10 +40,14 @@ function ItemDetail({ item }) {
                             <p className="details__price">${item.price}</p>
                             <div className="buttons">
                                 <Link to="/cart">
-                                    <button id="button__terminar">Ir al carrito<i className="fa-solid fa-arrow-right"></i></button>
+                                    <button id="button__terminar">
+                                        Ir al carrito<i className="fa-solid fa-arrow-right"></i>
+                                    </button>
                                 </Link>
                                 <Link to="/">
-                                    <button id="button__volver"><i className="fa-solid fa-arrow-left"></i>Volver al catalogo</button>
+                                    <button id="button__volver">
+                                        <i className="fa-solid fa-arrow-left"></i>Volver al catalogo
+                                    </button>
                                 </Link>
                             </div>
                         </>
@@ -53,15 +57,15 @@ function ItemDetail({ item }) {
                     <div className="mediodepago">
                         <p className="mediodepago__title">Medios de pago</p>
                         <p className="mediodepago__subtitle">Credito</p>
-                        <img src="https://i.postimg.cc/bNnCSsgD/credito1americanexpress.png" alt="" />
-                        <img src="https://i.postimg.cc/MZN3Gy7J/credito2visa.png" alt="" />
-                        <img src="https://i.postimg.cc/wx7bHWsk/credito3mastercard.png" alt="" />
-                        <img src="https://i.postimg.cc/sgRnYsHn/credito4cabal.png" alt="" />
-                        <img src="https://i.postimg.cc/JtCGyDh5/credito5naranja.png" alt="" />
+                        <img src="https://i.postimg.cc/bNnCSsgD/credito1americanexpress.png" alt="Tarjeta Credito American Express" />
+                        <img src="https://i.postimg.cc/MZN3Gy7J/credito2visa.png" alt="Tarjeta Credito Visa" />
+                        <img src="https://i.postimg.cc/wx7bHWsk/credito3mastercard.png" alt="Tarjeta Credito Mastercard" />
+                        <img src="https://i.postimg.cc/sgRnYsHn/credito4cabal.png" alt="Tarjeta Credito Cabal" />
+                        <img src="https://i.postimg.cc/JtCGyDh5/credito5naranja.png" alt="Tarjeta Credito Naranja" />
                         <p className="mediodepago__subtitle">Debito</p>
-                        <img src="https://i.postimg.cc/k4ZVmh3Z/debito1cabal.png" alt="" />
-                        <img src="https://i.postimg.cc/5yCXNqft/debito2mastecard.png" alt="" />
-                        <img src="https://i.postimg.cc/XJXZt6hd/debito3visa.png" alt="" />
+                        <img src="https://i.postimg.cc/k4ZVmh3Z/debito1cabal.png" alt="Tarjeta Debito Cabal" />
+                        <img src="https://i.postimg.cc/5yCXNqft/debito2mastecard.png" alt="Tarjeta Debito Mastercard" />
+                        <img src="https://i.postimg.cc/XJXZt6hd/debito3visa.png" alt="Tarjeta Debito Visa" />
                     </div>
                 </div>
             </div>

@@ -24,10 +24,8 @@ const ItemCart = ({ product }) => {
     return (
         <div className="cart__table--product">
             <div className="cart__1">
-                <button onClick={() => removeProduct(product.id)}>
-                    <i className="fa-solid fa-trash"></i>
-                </button>
-                <img src={product.img} alt="" />
+                <button onClick={() => removeProduct(product.id)}><i className="fa-solid fa-trash"></i></button>
+                <img src={product.img} alt={'Imagen libro ' + product.title} />
             </div>
             <div className="contenedor__infocarrito">
                 <div className="cart__1--2">
@@ -38,13 +36,9 @@ const ItemCart = ({ product }) => {
                     <p>${product.price}</p>
                 </div>
                 <div className="cart__3">
-                    <button onClick={restarCantidad}>
-                        <i className="fa-solid fa-minus"></i>
-                    </button>
+                    <button onClick={restarCantidad}><i className="fa-solid fa-minus"></i></button>
                     <p>{product.quantity}</p>
-                    <button onClick={sumarCantidad}>
-                        <i className="fa-solid fa-plus"></i>
-                    </button>
+                    <button onClick={sumarCantidad}><i className="fa-solid fa-plus"></i></button>
                 </div>
                 <div className="cart__4">
                     <span>Subtotal:</span>

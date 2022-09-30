@@ -15,21 +15,13 @@ const ItemDetailContainer = () => {
     const [isLoading, setIsLoading] = useState(true);
 
     // TRAE EL PRODUCTO DE FIREBASE SEGUN ID
-	useEffect(() => {
-		const querydb = getFirestore();
-		const queryDoc = doc(querydb, "products", idItem);
-		getDoc(queryDoc)
+    useEffect(() => {
+        const querydb = getFirestore();
+        const queryDoc = doc(querydb, 'products', idItem);
+        getDoc(queryDoc)
             .then((res) => setData({ id: res.id, ...res.data(setIsLoading(false)) }));
-	}, [idItem]);
-    return (
-        <>
-            {isLoading ? 
-                <Loading2/> 
-                : 
-                <ItemDetail item={data}/>}    
-             
-        </>
-    );
+    }, [idItem]);
+    return <>{isLoading ? <Loading2 /> : <ItemDetail item={data} />}</>;
 };
 
 export default ItemDetailContainer;

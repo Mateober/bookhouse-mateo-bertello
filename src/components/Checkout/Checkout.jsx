@@ -16,22 +16,18 @@ const Checkout = () => {
     const [orderId, setOrderId] = useState('');
     return (
         <div className="checkout__page">
-            {showThanks ? (
+            {showThanks ? 
                 <ThanksCheckout orderId={orderId} />
-            ) : cart.length === 0 ? (
+            :  cart.length === 0 ? 
                 <div className="sinProductoCarro">
                     <p>No hay productos</p>
-                    <Link to="/">
-                        <i className="fa-solid fa-arrow-left"></i>Volver al catalogo
-                    </Link>
+                    <Link to="/"><i className="fa-solid fa-arrow-left"></i>Volver al catalogo</Link>
                 </div>
-            ) : (
+            : 
                 <>
                     <div className="checkout__title--container">
                         <Link to="/cart">
-                            <p className="checkout__volver">
-                                <i className="fa-solid fa-arrow-left"></i>Volver al carrito
-                            </p>
+                            <p className="checkout__volver"><i className="fa-solid fa-arrow-left"></i>Volver al carrito</p>
                         </Link>
                         <div className="checkout__title">
                             <h2>DATOS PERSONALES</h2>
@@ -62,7 +58,7 @@ const Checkout = () => {
                         </div>
                     </div>
                 </>
-            )}
+            }
         </div>
     );
 };

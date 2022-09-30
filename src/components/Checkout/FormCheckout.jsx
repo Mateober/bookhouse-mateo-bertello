@@ -5,7 +5,7 @@ import { addDoc, collection, getFirestore, serverTimestamp } from 'firebase/fire
 const FormCheckout = ({ setShowThanks, setOrderId }) => {
     // CONTEXT CARRO
     const { cart, totalPrice, clearCart } = useCartContext();
-    
+
     // FORM INPUTS
     const [nombre, setNombre] = useState('');
     const [apellido, setApellido] = useState('');
@@ -66,7 +66,7 @@ const FormCheckout = ({ setShowThanks, setOrderId }) => {
             clearCart();
         }
     };
-    
+
     return (
         <>
             <div className="contacto__container--form">

@@ -14,7 +14,7 @@ const Item = ({ title, author, price, img, id, category, item, stock }) => {
 
     return (
         <div className="product__container">
-            <img src={img} alt="Libro" />
+            <img src={img} alt={'Imagen libro ' + title} />
             <div className="product__container--title">
                 <p className="title__book">{title}</p>
                 <p className="autor__book">{author}</p>
