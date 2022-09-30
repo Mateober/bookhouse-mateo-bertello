@@ -21,7 +21,7 @@ const Item = ({ title, author, price, img, id, category, item, stock }) => {
                 <p className="price__book">${price}</p>
             </div>
             <div className="product__container--options">
-                <Link onClick={scrollTopOnClick} to={`/item/${category}/${id}`}>
+                <Link className="btn-details-a" onClick={scrollTopOnClick} to={`/item/${category}/${id}`}>
                     <button className="btn-details">
                         <i className="fa-solid fa-eye"></i>Detalles
                     </button>

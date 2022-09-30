@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { useCartContext } from '../../context/CartContext';
 import { addDoc, collection, getFirestore, serverTimestamp } from 'firebase/firestore';
 
-const FormCheckout = ({ setShowGracias, setOrderId }) => {
+const FormCheckout = ({ setShowThanks, setOrderId }) => {
     // CONTEXT CARRO
     const { cart, totalPrice, clearCart } = useCartContext();
-
+    
     // FORM INPUTS
     const [nombre, setNombre] = useState('');
     const [apellido, setApellido] = useState('');
@@ -62,11 +62,11 @@ const FormCheckout = ({ setShowGracias, setOrderId }) => {
             setErrorForm(true);
         } else {
             handleClick();
-            setShowGracias(true);
+            setShowThanks(true);
             clearCart();
         }
     };
-
+    
     return (
         <>
             <div className="contacto__container--form">

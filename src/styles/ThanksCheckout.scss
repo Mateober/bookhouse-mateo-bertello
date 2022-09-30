@@ -1,0 +1,35 @@
+.container__thanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    text-align: center;
+    h2 {
+        font-size: 50px;
+        font-weight: 700;
+        color: #1f2b43;
+    }
+    p {
+        font-size: 30px;
+        font-weight: 700;
+        color: #1f2b43;
+        padding: 40px 0;
+    }
+    button {
+        color: aliceblue;
+        background-color: #1f2b43;
+        width: auto;
+        font-size: 30px;
+        font-weight: 700;
+        padding: 10px 20px;
+        cursor: pointer;
+        &:hover {
+            background-color: #5a5a5a;
+            transition: 0.2s;
+        }
+    }
+    span {
+        color: #2554b1;
+    }
+}

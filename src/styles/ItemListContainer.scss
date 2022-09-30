@@ -55,11 +55,21 @@ main {
         display: flex;
         justify-content: space-around;
         border-top: 1px solid #d7d7d7;
-        .btn-details,
+
+        .btn-details-a,
         .btn-buy {
+            width: 50%;
+        }
+
+        .btn-details {
+            width: 100%;
+        }
+
+        .btn-buy,
+        .btn-details,
+        .btn-buy-sinstock {
             background-color: white;
             color: #1f2b43;
-            width: 120px;
             cursor: pointer;
             padding: 20px 0;
             font-size: 14px;
@@ -67,16 +77,20 @@ main {
             i {
                 padding-right: 5px;
             }
+            &:hover {
+                background-color: #f1f1f1;
+            }
+            &:active {
+                background-color: #c4c0c0;
+            }
         }
+
         .btn-buy-sinstock {
-            background-color: white;
             color: #e95246;
-            width: 120px;
-            padding: 20px 0;
-            font-size: 14px;
-            font-weight: 500;
-            i {
-                padding-right: 5px;
+            width: 50%;
+            cursor: default;
+            &:hover {
+                background-color: white;
             }
         }
     }
@@ -126,10 +140,10 @@ main {
             .btn-details,
             .btn-buy,
             .btn-buy-sinstock {
-                width: 92px;
-             i{
-                padding-right: 0;
-             }
+                padding: 15px 0;
+                i {
+                    padding-right: 0;
+                }
             }
         }
     }

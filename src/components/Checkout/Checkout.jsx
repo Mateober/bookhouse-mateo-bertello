@@ -3,22 +3,28 @@ import { Link } from 'react-router-dom';
 import { useCartContext } from '../../context/CartContext';
 import ItemCheckout from './ItemCheckout';
 import FormCheckout from './FormCheckout';
-import GraciasCheckout from './GraciasCheckout';
+import ThanksCheckout from './ThanksCheckout';
 
 const Checkout = () => {
     // CONTEXTO CARRO
     const { cart, totalPrice } = useCartContext();
 
     // USESTATE DE PAGINA GRACIAS POR COMPRAR (SETGRACIAS ESTA EN FORMCHECKOUT.JSX)
-    const [showGracias, setShowGracias] = useState(false);
+    const [showThanks, setShowThanks] = useState(false);
 
-    // USESTATE DE CODIGO ID (SETGRACIAS ESTA EN GRA)
+    // USESTATE DE CODIGO ID (SETORDERID ESTA EN FORMCHECKOUT.JSX)
     const [orderId, setOrderId] = useState('');
-
     return (
         <div className="checkout__page">
-            {showGracias ? (
-                <GraciasCheckout orderId={orderId} />
+            {showThanks ? (
+                <ThanksCheckout orderId={orderId} />
+            ) : cart.length === 0 ? (
+                <div className="sinProductoCarro">
+                    <p>No hay productos</p>
+                    <Link to="/">
+                        <i className="fa-solid fa-arrow-left"></i>Volver al catalogo
+                    </Link>
+                </div>
             ) : (
                 <>
                     <div className="checkout__title--container">
@@ -33,7 +39,7 @@ const Checkout = () => {
                         </div>
                     </div>
                     <div className="checkout__container--general">
-                        <FormCheckout setShowGracias={setShowGracias} setOrderId={setOrderId} />
+                        <FormCheckout setShowThanks={setShowThanks} setOrderId={setOrderId} />
                         <div className="checkout__menu">
                             <div className="container__checkout--menu">
                                 <div className="checkout__menu--1">

@@ -25,6 +25,33 @@
     }
 }
 
+.loader2 {
+    background-color: white;
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__loader {
+        .rueda {
+            border: 10px solid #1f2b43;
+            border-radius: 50%;
+            border-left-color: transparent;
+            width: 80px;
+            height: 80px;
+            animation: giro 1s linear infinite;
+        }
+    }
+    &__title {
+        color: #1f2b43;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
 @keyframes giro {
     0% {
         transform: rotate(0deg);
@@ -37,6 +64,9 @@
 
 @media (max-width: 667px) {
     .loader {
+        height: 100vh;
+    }
+    .loader2 {
         height: 100vh;
     }
 }
