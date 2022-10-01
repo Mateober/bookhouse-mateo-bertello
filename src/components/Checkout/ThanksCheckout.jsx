@@ -1,6 +1,7 @@
 import React from 'react';
 import Loading2 from '../Loading/Loading2';
 import { Link } from 'react-router-dom';
+import scrollTopOnClick from '../../utils/scrollTopOnClick';
 
 const ThanksCheckout = ({ orderId }) => {
     return orderId === '' ? (
@@ -11,7 +12,7 @@ const ThanksCheckout = ({ orderId }) => {
             <p>
                 Tu codigo de compra es "<span>{orderId}</span>"
             </p>
-            <Link to="/">
+            <Link to="/" onClick={scrollTopOnClick}>
                 <button>Volver al inicio</button>
             </Link>
         </div>

@@ -15,7 +15,7 @@ const Cart = () => {
                     <h2 className="cart__title--sin">CARRITO DE COMPRAS</h2>
                     <div className="sinProductoCarro">
                         <p>No hay productos en el carrito</p>
-                        <Link to="/">
+                        <Link to="/" onClick={scrollTopOnClick}>
                             <i className="fa-solid fa-arrow-left"></i>Volver al catalogo
                         </Link>
                     </div>
@@ -26,7 +26,7 @@ const Cart = () => {
     return (
         <div className="cart__page0">
             <div className="cart__title">
-                <Link to="/"><p className="cart__volver"><i className="fa-solid fa-arrow-left"></i>Volver al catalogo</p></Link>
+                <Link to="/" onClick={scrollTopOnClick}><p className="cart__volver"><i className="fa-solid fa-arrow-left"></i>Volver al catalogo</p></Link>
                 <h2 className="cart__title">CARRITO DE COMPRAS</h2>
             </div>
             <div className="cart__page">

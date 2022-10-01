@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ItemCount from './ItemCount';
 import { Link } from 'react-router-dom';
 import { useCartContext } from '../../context/CartContext';
+import scrollTopOnClick from '../../utils/scrollTopOnClick';
 
 function ItemDetail({ item }) {
     // CONTEXT CARRO
@@ -39,12 +40,12 @@ function ItemDetail({ item }) {
                             <p className="details__precio">PRECIO</p>
                             <p className="details__price">${item.price}</p>
                             <div className="buttons">
-                                <Link to="/cart">
+                                <Link to="/cart" onClick={scrollTopOnClick}>
                                     <button id="button__terminar">
                                         Ir al carrito<i className="fa-solid fa-arrow-right"></i>
                                     </button>
                                 </Link>
-                                <Link to="/">
+                                <Link to="/" onClick={scrollTopOnClick}>
                                     <button id="button__volver">
                                         <i className="fa-solid fa-arrow-left"></i>Volver al catalogo
                                     </button>

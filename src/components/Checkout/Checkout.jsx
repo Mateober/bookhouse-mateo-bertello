@@ -4,6 +4,7 @@ import { useCartContext } from '../../context/CartContext';
 import ItemCheckout from './ItemCheckout';
 import FormCheckout from './FormCheckout';
 import ThanksCheckout from './ThanksCheckout';
+import scrollTopOnClick from '../../utils/scrollTopOnClick';
 
 const Checkout = () => {
     // CONTEXTO CARRO
@@ -21,12 +22,12 @@ const Checkout = () => {
             :  cart.length === 0 ? 
                 <div className="sinProductoCarro">
                     <p>No hay productos</p>
-                    <Link to="/"><i className="fa-solid fa-arrow-left"></i>Volver al catalogo</Link>
+                    <Link to="/" onClick={scrollTopOnClick}><i className="fa-solid fa-arrow-left"></i>Volver al catalogo</Link>
                 </div>
             : 
                 <>
                     <div className="checkout__title--container">
-                        <Link to="/cart">
+                        <Link to="/cart" onClick={scrollTopOnClick}>
                             <p className="checkout__volver"><i className="fa-solid fa-arrow-left"></i>Volver al carrito</p>
                         </Link>
                         <div className="checkout__title">
