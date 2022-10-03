@@ -32,22 +32,22 @@ const Footer = () => {
                     </ul>
                     <h4>Contacto</h4>
                     <ul>
-                        <li><a href="#/"><i class="fa-solid fa-phone i-1"></i>0800 298</a></li>
-                        <li><a href="#/"><i class="fa-brands fa-whatsapp i-1"></i>341 334 2009</a></li>
+                        <li><a href="#/"><i className="fa-solid fa-phone i-1"></i>0800 298</a></li>
+                        <li><a href="#/"><i className="fa-brands fa-whatsapp i-1"></i>341 334 2009</a></li>
                     </ul>
                 </div>
-                <div class="footer-col footer-col2">
+                <div className="footer-col footer-col2">
                     <h4>Centro de atención telefonica</h4>
                     <ul>
                         <li>Lunes a viernes de 08:30 a 18:30hs</li>
                         <li>Sabados de 09 a 17:30hs</li>
                     </ul>
                     <h4>Seguinos</h4>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <div className="social-links">
+                        <a href="#/"><i className="fab fa-facebook-f"></i></a>
+                        <a href="#/"><i className="fab fa-twitter"></i></a>
+                        <a href="#/"><i className="fab fa-instagram"></i></a>
+                        <a href="#/"><i className="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>

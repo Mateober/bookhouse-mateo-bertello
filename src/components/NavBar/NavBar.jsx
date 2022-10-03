@@ -4,6 +4,7 @@ import Logo from '../../assets/logo-iso.png';
 import { Link } from 'react-router-dom';
 import scrollTopOnClick from '../../utils/scrollTopOnClick';
 import Carrito from "./Carrito"
+import Search from './Search';
 
 function NavBar() {
     //MODAL MENU MOBILE
@@ -43,10 +44,7 @@ function NavBar() {
                         <button className="btn-ingresar">INGRESAR</button>
                     </div>
                     <div className="nav__2">
-                        <form action="">
-                            <input type="text" placeholder="Hola. ¿Qué libro estás buscando hoy?" />
-                        </form>
-                        <button type="submit" className="btn-buscar"><i className="fa-solid fa-magnifying-glass"></i></button>
+                        {<Search/>}
                     </div>
                     <div className="nav__3">
                         <ul className="menu">
